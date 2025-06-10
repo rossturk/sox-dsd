@@ -1,0 +1,12 @@
+prefix=/tmp/store_092317f3fb22543ce1980399d433294a-sox-dsd-0.0.0
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: SoX
+Description: Audio file format and effects library
+Version: 14.4.3git
+URL: http://sox.sourceforge.net
+Libs: -L${libdir} -lsox
+Libs.private: -lm 
+Cflags: -I${includedir}

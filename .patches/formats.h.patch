@@ -1,0 +1,11 @@
+--- src/formats.h.orig
++++ src/formats.h
+@@ -30,6 +30,8 @@
+   FORMAT(f4)
+   FORMAT(f8)
+   FORMAT(gsrt)
++  FORMAT(dsdiff)
++  FORMAT(dsf)
+   FORMAT(hcom)
+   FORMAT(htk)
+   FORMAT(ima)

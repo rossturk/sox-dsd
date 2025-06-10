@@ -1,0 +1,10 @@
+--- src/formats.c.orig
++++ src/formats.c
+@@ -150,6 +150,7 @@
+   {sox_encodings_lossy2, "CVSD"         , "CVSD"},
+   {sox_encodings_lossy2, "LPC10"        , "LPC10"},
+   {sox_encodings_lossy2, "Opus"         , "Opus"},
++  {sox_encodings_none  , "DSD"          , "Direct Stream Digital"},
+ };
+
+ assert_static(array_length(s_sox_encodings_info) == SOX_ENCODINGS,

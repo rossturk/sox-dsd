@@ -1,0 +1,10 @@
+--- src/effects.h.orig
++++ src/effects.h
+@@ -67,6 +67,7 @@
+   EFFECT(reverse)
+   EFFECT(riaa)
+   EFFECT(silence)
++  EFFECT(sdm)
+   EFFECT(sinc)
+ #ifdef HAVE_PNG
+   EFFECT(spectrogram)

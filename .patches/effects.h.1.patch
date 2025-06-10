@@ -1,0 +1,10 @@
+--- src/effects.h.orig
++++ src/effects.h
+@@ -35,6 +35,7 @@
+   EFFECT(dither)
+   EFFECT(divide)
+   EFFECT(downsample)
++  EFFECT(dop)
+   EFFECT(earwax)
+   EFFECT(echo)
+   EFFECT(echos)

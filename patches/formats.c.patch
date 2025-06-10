@@ -1,0 +1,36 @@
+--- formats.c.orig	2023-04-01 00:00:00.000000000 +0000
++++ formats.c	2023-04-01 00:00:00.000000000 +0000
+@@ -60,6 +60,8 @@
+ extern sox_format_handler_t const * lsx_cvsd_format_fn(void);
+ extern sox_format_handler_t const * lsx_dat_format_fn(void);
+ extern sox_format_handler_t const * lsx_dvms_format_fn(void);
++extern sox_format_handler_t const * lsx_dsdiff_format_fn(void);
++extern sox_format_handler_t const * lsx_dsf_format_fn(void);
+ extern sox_format_handler_t const * lsx_f4_format_fn(void);
+ extern sox_format_handler_t const * lsx_f8_format_fn(void);
+ extern sox_format_handler_t const * lsx_gsrt_format_fn(void);
+@@ -123,6 +125,8 @@
+   lsx_cvsd_format_fn,
+   lsx_dat_format_fn,
+   lsx_dvms_format_fn,
++  lsx_dsdiff_format_fn,
++  lsx_dsf_format_fn,
+   lsx_f4_format_fn,
+   lsx_f8_format_fn,
+   lsx_gsrt_format_fn,
+@@ -150,6 +154,7 @@
+   {sox_encodings_lossy2, "CVSD"         , "CVSD"},
+   {sox_encodings_lossy2, "LPC10"        , "LPC10"},
+   {sox_encodings_lossy2, "Opus"         , "Opus"},
++  {sox_encodings_none  , "DSD"          , "Direct Stream Digital"},
+ };
+
+ assert_static(array_length(s_sox_encodings_info) == SOX_ENCODINGS,
+@@ -176,6 +181,7 @@
+
+     case SOX_ENCODING_ALAW:       return bits_per_sample == 8? 13: 0;
+     case SOX_ENCODING_ULAW:       return bits_per_sample == 8? 14: 0;
++    case SOX_ENCODING_DSD:        return bits_per_sample;
+
+     case SOX_ENCODING_CL_ADPCM:   return bits_per_sample? 8: 0;
+     case SOX_ENCODING_CL_ADPCM16: return bits_per_sample == 4? 13: 0;

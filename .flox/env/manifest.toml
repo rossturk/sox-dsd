@@ -60,110 +60,19 @@ SOX_ENABLE_OPTIONAL_FORMATS = "true"
 [build]
 sox-dsd.command = '''
 # Create directory structure in $out
-mkdir -p $out/bin $out/lib $out/include $out/share
+mkdir -p $out/bin
 
-# Start from the project directory
-cd "$FLOX_ENV_PROJECT"
+# (a) Run apply-patches.sh
+./apply-patches.sh apply || exit 1
 
-# Apply patches if they exist
-if [ -f "./apply-patches.sh" ] && [ -x "./apply-patches.sh" ]; then
-    ./apply-patches.sh || echo "Some patches might have failed, continuing with manual fixes"
-else
-    # Apply patches manually from the patches directory
-    if [ -d "./patches" ]; then
-        echo "Applying patches manually from patches directory"
-        for patchfile in ./patches/*.patch; do
-            if [ -f "$patchfile" ]; then
-                echo "Applying patch: $patchfile"
-                patch -p0 -f -i "$patchfile" || echo "Patch partially applied: $patchfile"
-            fi
-        done
-    fi
-fi
+# (b) Run ./configure if apply-patches.sh exits successfully
+./configure --prefix=$out || exit 1
 
-# Fix Makefile.am manually for DSD support files
-if grep -q "dop.c" src/Makefile.am; then
-    echo "Makefile.am already contains dop.c"
-else
-    echo "Manually adding dop.c to Makefile.am"
-    sed -i 's/fade.c fft4g.c fft4g.h fifo.h fir.c firfit.c flanger.c gain.c \\/fade.c fft4g.c fft4g.h fifo.h fir.c firfit.c flanger.c gain.c dop.c \\/' src/Makefile.am
-fi
+# (c) Run make to build SoX
+make || exit 1
 
-# Fix Makefile.am manually for sdm.c and sdm.h
-if grep -q "sdm.c" src/Makefile.am; then
-    echo "Makefile.am already contains sdm.c"
-else
-    echo "Manually adding sdm.c and sdm.h to Makefile.am"
-    sed -i 's/rate.c rate_filters.h rate_half_fir.h rate_poly_fir.h \\/rate.c rate_filters.h rate_half_fir.h rate_poly_fir.h sdm.c sdm.h sdm_x86.h \\/' src/Makefile.am
-fi
-
-# Add dsdiff.c and dsf.c to Makefile.am
-if grep -q "dsdiff.c" src/Makefile.am; then
-    echo "Makefile.am already contains dsdiff.c"
-else
-    echo "Manually adding dsdiff.c and dsf.c to Makefile.am"
-    sed -i 's/dat.c hcom.c htk.c maud.c prc.c sf.c smp.c \\/dat.c dsdiff.c dsf.c hcom.c htk.c maud.c prc.c sf.c smp.c \\/' src/Makefile.am
-fi
-
-# Check if required DSD files exist
-if [ ! -f "src/sdm.c" ]; then
-    echo "Warning: sdm.c is missing, checking in patches directory"
-    find ./patches -name "*.c" -o -name "*.h" | while read file; do
-        base=$(basename "$file")
-        if [ "$base" = "sdm.c" ] || [ "$base" = "sdm.h" ] || [ "$base" = "sdm_x86.h" ] || [ "$base" = "dop.c" ]; then
-            echo "Found $base in patches, copying to src directory"
-            cp "$file" "src/$base"
-        fi
-    done
-fi
-
-# Configure options based on platform
-CONFIGURE_OPTIONS="--prefix=$out --enable-shared"
-if [[ "$(uname)" == "Linux" ]]; then
-    CONFIGURE_OPTIONS="$CONFIGURE_OPTIONS --with-alsa --with-pulseaudio"
-elif [[ "$(uname)" == "Darwin" ]]; then
-    CONFIGURE_OPTIONS="$CONFIGURE_OPTIONS --with-coreaudio"
-fi
-
-# Configure, build, and install
-echo "Running configure with options: $CONFIGURE_OPTIONS"
-./configure $CONFIGURE_OPTIONS
-
-if [ $? -ne 0 ]; then
-    echo "Configure failed"
-    exit 1
-fi
-
-make -j$(nproc 2>/dev/null || echo 4)  # Use nproc if available, otherwise default to 4
-
-if [ $? -ne 0 ]; then
-    echo "Build failed"
-    exit 1
-fi
-
+# Install the built binary to $out
 make install
-
-if [ $? -ne 0 ]; then
-    echo "Install failed"
-    exit 1
-fi
-
-# Create a simple metadata file with build information
-cat > $out/sox-dsd-info.txt << EOF
-SoX-DSD build information:
-=========================
-Build date: $(date)
-Platform: $(uname -a)
-
-DSD Support:
-- dff: Yes
-- dsf: Yes
-
-Configuration options used:
-$CONFIGURE_OPTIONS
-EOF
-
-echo "SoX-DSD build complete with DSD support"
 '''
 
 
@@ -172,47 +81,6 @@ echo "SoX-DSD build complete with DSD support"
 ## -------------------------------------------------------------------
 [hook]
 on-activate = '''
-# Check if SoX-DSD is built and result symlink exists
-if [ -L "./result-sox-dsd" ] && [ -d "./result-sox-dsd" ]; then
-    RESULT_DIR="$(readlink -f ./result-sox-dsd)"
-
-    # Print environment information
-    echo
-    gum style --foreground 212 --border-foreground 212 --border double \
-      --align center --width 50 --margin "1 2" --padding "2 4" \
-        "SoX-DSD Environment"
-    echo
-
-    echo "SoX-DSD commands are now available:"
-    echo "  sox-dsd  - DSD-capable sox"
-    echo "  play-dsd - DSD-capable player"
-    echo "  rec-dsd  - DSD-capable recorder"
-    echo "  soxi-dsd - DSD-capable audio info utility"
-
-    echo
-    echo "Supported DSD formats:"
-    FORMATS=$("$RESULT_DIR/bin/sox" --help | grep -o -E '(dff|dsf)')
-    if [ -n "$FORMATS" ]; then
-        echo "$FORMATS"
-    else
-        echo "Warning: No DSD formats detected in --help output"
-    fi
-
-    echo
-    echo "Usage examples:"
-    echo "  sox-dsd in.dsf out.wav        # Convert DSD to PCM"
-    echo "  sox-dsd in.wav -r 2822400 out.dsf sdm  # Convert PCM to DSD"
-    echo "  play-dsd music.dsf            # Play DSD audio file"
-    echo
-    echo "To run outside this environment, use the full path:"
-    echo "  $RESULT_DIR/bin/sox"
-
-    # Return to project directory
-    cd "$FLOX_ENV_PROJECT"
-else
-    echo "SoX-DSD is not built yet. Run: flox build sox-dsd"
-    echo "After building, run: flox activate"
-fi
 '''
 
 

@@ -7,7 +7,7 @@ This repository contains a fork of [SoX (Sound eXchange)](http://sox.sourceforge
 This is a maintained fork that:
 - Tracks the official SoX repository from SourceForge
 - Incorporates DSD support from [Måns Rullgård's sox fork](https://github.com/mansr/sox)
-- Uses a patch-based system to (crosses fingers) simplify maintenance
+- Uses a patch-based system to (🤞) simplify maintenance
 - Designed / intended to be updateable when new SoX versions are released
 
 ## DSD Support Features

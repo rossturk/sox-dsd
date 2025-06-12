@@ -53,7 +53,7 @@ brew install autoconf automake libtool pkg-config
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/sox-dsd.git
+   git clone https://github.com/barstoolbluz/sox-dsd.git
    cd sox-dsd
    ```
 

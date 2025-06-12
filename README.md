@@ -14,64 +14,66 @@ This is a maintained fork that:
 
 This fork adds the following DSD capabilities to SoX:
 
-1. **DSD Encoding** - New `SOX_ENCODING_DSD` type for native DSD support
+1. **DSD Encoding** – New `SOX_ENCODING_DSD` type for native DSD support  
 2. **File Formats:**
-   - DSDIFF/DFF (.dff) - Direct Stream Digital Interchange File Format
-   - DSF (.dsf) - DSD Storage Facility format  
-   - WSD (.wsd) - Wideband Single-bit Data format (via DSDIFF handler)
+   - DSDIFF/DFF (.dff) – Direct Stream Digital Interchange File Format
+   - DSF (.dsf) – DSD Storage Facility format  
+   - WSD (.wsd) – Wideband Single-bit Data format (via DSDIFF handler)
 3. **Effects:**
-   - `sdm` - Sigma-Delta Modulator for PCM-to-DSD conversion
-   - `dop` - DSD over PCM for encapsulating DSD in PCM frames
+   - `sdm` – Sigma-Delta Modulator for PCM-to-DSD conversion
+   - `dop` – DSD over PCM for encapsulating DSD in PCM frames
 
 ## Quick Start
 
-### Prerequisites
+You can build this version of SoX in two ways:
 
-You'll need the following tools and libraries:
+### Option 1: Install Using a System Package Manager / Homebrew
 
-- C compiler (GCC or Clang)
-- Autotools (autoconf, automake, libtool)
-- pkg-config
-- Standard development libraries
+If you're not using Flox, you’ll need to install build dependencies yourself.
 
-On Debian/Ubuntu:
+#### On Debian/Ubuntu:
 ```bash
 sudo apt install build-essential autoconf automake libtool pkg-config libltdl-dev
 ```
 
-On Fedora/RHEL:
+#### On Fedora/RHEL:
 ```bash
 sudo dnf install gcc make autoconf automake libtool pkgconfig libtool-ltdl-devel
 ```
 
-On macOS (using Homebrew):
+#### On macOS (via Homebrew):
 ```bash
 brew install autoconf automake libtool pkg-config
 ```
 
-### Building
+Then build as follows:
+```bash
+./apply-patches.sh apply
+./configure
+make
+sudo make install  # optional
+```
 
-1. Clone this repository:
+### Option 2: Use Flox
+
+[Flox](https://flox.dev) provides a portable, cross-platform, sandboxed environment for building SoX without installing system-level dependencies. Works on Linux (x86-64 and ARM) and macOS (Intel and ARM/Apple Silicon).
+
+1. [Install Flox](https://flox.dev/docs/install-flox/)
+2. Activate the environment:
    ```bash
-   git clone https://github.com/barstoolbluz/sox-dsd.git
-   cd sox-dsd
+   flox activate
    ```
-
-2. Apply the DSD patches:
-   ```bash
-   ./apply-patches.sh apply
-   ```
-
 3. Build SoX:
    ```bash
+   ./apply-patches.sh apply
    ./configure
    make
    ```
 
-4. Install (optional):
-   ```bash
-   sudo make install
-   ```
+Optionally install:
+```bash
+sudo make install
+```
 
 ## Usage Examples
 
@@ -140,27 +142,27 @@ git merge upstream/master
 ## Technical Details
 
 The DSD support adds these new files:
-- `src/dsdiff.c` - DSDIFF/DFF format handler
-- `src/dsf.c` - DSF format handler
-- `src/dop.c` - DoP (DSD over PCM) effect
-- `src/sdm.c`, `src/sdm.h`, `src/sdm_x86.h` - Sigma-Delta Modulation effect
+- `src/dsdiff.c` – DSDIFF/DFF format handler
+- `src/dsf.c` – DSF format handler
+- `src/dop.c` – DoP (DSD over PCM) effect
+- `src/sdm.c`, `src/sdm.h`, `src/sdm_x86.h` – Sigma-Delta Modulation effect
 
 And modifies these existing SoX components:
-- `sox.h` - Adds `SOX_ENCODING_DSD` enum
-- `formats.h` - Registers DSD format handlers
-- `formats.c` - Implements DSD encoding support
-- `effects.h` - Registers sdm and dop effects
-- `Makefile.am` - Adds the new DSD source files to the build
+- `sox.h` – Adds `SOX_ENCODING_DSD` enum
+- `formats.h` – Registers DSD format handlers
+- `formats.c` – Implements DSD encoding support
+- `effects.h` – Registers sdm and dop effects
+- `Makefile.am` – Adds the new DSD source files to the build
 
 ## Known Limitations
 
 - DSD playback requires a DSD-capable DAC or will be converted to PCM
 - Sample rate for DSD files must be a multiple of 44100 (e.g., 2822400 for DSD64)
-- The sdm effect is experimental and may not produce optimal results for all material
+- The `sdm` effect is experimental and may not produce optimal results for all material
 
 ## License
 
-SoX is distributed under the GNU GPL and LGPL licenses. The 'sox' and 'soxi' programs are GPL, while the 'libsox' library is dual-licensed (GPL/LGPL). See the COPYING files for details.
+SoX is distributed under the GNU GPL and LGPL licenses. The `sox` and `soxi` programs are GPL, while the `libsox` library is dual-licensed (GPL/LGPL). See the COPYING files for details.
 
 ## Contributing
 
@@ -174,6 +176,6 @@ For bugs in core SoX functionality, please report to the [upstream SoX project](
 
 ## Acknowledgments
 
-- The SoX development team for the excellent audio processing framework
-- [Måns Rullgård](https://github.com/mansr/sox) for the original DSD implementation that this fork is based on
+- The SoX development team for the excellent audio processing framework  
+- [Måns Rullgård](https://github.com/mansr/sox) for the original DSD implementation that this fork is based on  
 - Everyone who has contributed patches and bug reports

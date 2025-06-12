@@ -42,7 +42,7 @@
 #define PATH_HASH_SIZE 128
 #define PATH_HASH_MASK (PATH_HASH_SIZE - 1)
 
-typedef struct LSX_ALIGN(32) sdm_filter {
+typedef struct sdm_filter {
   const double  a[MAX_FILTER_ORDER];
   const double  g[MAX_FILTER_ORDER];
   int32_t       order;
@@ -53,7 +53,7 @@ typedef struct LSX_ALIGN(32) sdm_filter {
   int           trellis_lat;
 } sdm_filter_t;
 
-typedef struct LSX_ALIGN(32) sdm_state {
+typedef struct sdm_state {
   double        state[MAX_FILTER_ORDER];
   double        cost;
   uint32_t      path;
@@ -1020,7 +1020,7 @@ sdm_t *sdm_init(const char *filter_name,
     return NULL;
   }
 
-  p = aligned_alloc((size_t)32, sizeof(*p));
+  p = lsx_malloc(sizeof(*p));
   if (!p)
     return NULL;
 
@@ -1069,7 +1069,7 @@ void sdm_close(sdm_t *p)
   if (p->conv_fail)
     lsx_warn("failed to converge %"PRId64" times", p->conv_fail);
 
-  aligned_free(p);
+  free(p);
 }
 
 typedef struct sdm_effect {

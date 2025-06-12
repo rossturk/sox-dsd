@@ -66,3 +66,5 @@
 *~
 *.swp
 *.swo
+result*
+*.patch_status

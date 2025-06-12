@@ -33,6 +33,7 @@
   EFFECT(dither)
   EFFECT(divide)
   EFFECT(downsample)
+  EFFECT(dop)
   EFFECT(earwax)
   EFFECT(echo)
   EFFECT(echos)
@@ -67,6 +68,7 @@
   EFFECT(reverse)
   EFFECT(riaa)
   EFFECT(silence)
+  EFFECT(sdm)
   EFFECT(sinc)
 #ifdef HAVE_PNG
   EFFECT(spectrogram)

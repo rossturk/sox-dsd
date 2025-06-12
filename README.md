@@ -29,7 +29,7 @@ You can build this version of SoX in two ways:
 
 ### Option 1: Install Using a System Package Manager / Homebrew
 
-If you're not using Flox, you’ll need to install build dependencies yourself.
+If you're not using Flox (See **Option 2**, below), you’ll need to install build dependencies yourself.
 
 #### On Debian/Ubuntu:
 ```bash

@@ -16,11 +16,12 @@ version = 1
 ## -------------------------------------------------------------------
 [install]
 # Core build tools
-gcc.pkg-path = "gcc"
 autoconf.pkg-path = "autoconf"
 automake.pkg-path = "automake"
 libtool.pkg-path = "libtool"
 pkgconfig.pkg-path = "pkg-config"
+bash.pkg-path = "bash"
+gnused.pkg-path = "gnused"
 gnumake.pkg-path = "gnumake"
 autoconf-archive.pkg-path = "autoconf-archive"
 patch.pkg-path = "patch"
@@ -40,10 +41,12 @@ flac.pkg-path = "flac"
 libvorbis.pkg-path = "libvorbis"
 
 # Linux-specific packages
-alsa-lib.pkg-path = "alsa-lib"
-alsa-lib.systems = ["aarch64-linux", "x86_64-linux"]
-pulseaudio.pkg-path = "pulseaudio"
-pulseaudio.systems = ["aarch64-linux", "x86_64-linux"]
+gcc.pkg-path = "gcc"
+gcc.systems = ["x86_64-linux", "aarch64-linux"]
+
+# darwin-specific packages
+clang.pkg-path = "clang"
+clang.systems = ["x86_64-darwin", "aarch64-darwin"]
 
 
 ## Environment Variables ---------------------------------------------

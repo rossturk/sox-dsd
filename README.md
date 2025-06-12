@@ -59,13 +59,11 @@ brew install autoconf automake libtool pkg-config
 
 2. Apply the DSD patches:
    ```bash
-   chmod +x apply-patches.sh
    ./apply-patches.sh apply
    ```
 
 3. Build SoX:
    ```bash
-   autoreconf -i
    ./configure
    make
    ```

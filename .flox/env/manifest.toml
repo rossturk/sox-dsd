@@ -2,7 +2,7 @@ version = 1
 
 [install]
 # Core build tools
-gcc.pkg-path = "gcc-unwrapped"
+gcc.pkg-path = "gcc"
 autoconf.pkg-path = "autoconf"
 automake.pkg-path = "automake"
 libtool.pkg-path = "libtool"
@@ -16,27 +16,16 @@ gum.pkg-path = "gum"
 
 # Optional libraries for additional formats
 file.pkg-path = "file"  # For libmagic
-file.pkg-group = "dev"
 zlib.pkg-path = "zlib"
-zlib.pkg-group = "dev"
 libpng.pkg-path = "libpng"
-libpng.pkg-group = "dev"
 libid3tag.pkg-path = "libid3tag"
-libid3tag.pkg-group = "dev"
 lame.pkg-path = "lame"
-lame.pkg-group = "dev"
 libmad.pkg-path = "libmad"
-libmad.pkg-group = "dev"
 twolame.pkg-path = "twolame"
-twolame.pkg-group = "dev"
 libsndfile.pkg-path = "libsndfile"
-libsndfile.pkg-group = "dev"
 wavpack.pkg-path = "wavpack"
-wavpack.pkg-group = "dev"
 flac.pkg-path = "flac"
-flac.pkg-group = "dev"
 libvorbis.pkg-path = "libvorbis"
-libvorbis.pkg-group = "dev"
 
 
 [vars]
@@ -46,7 +35,8 @@ SOX_ENABLE_OPTIONAL_FORMATS = "true"
 sox-dsd.sandbox = "pure"
 sox-dsd.command = '''
 mkdir -p $out/bin
+autoreconf -i
 ./configure --prefix=$out || exit 1
-make || exit 1
+make -j$(nproc) || exit 1
 make install
 '''

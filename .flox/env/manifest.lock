@@ -105,1362 +105,6 @@
   },
   "packages": [
     {
-      "attr_path": "autoconf",
-      "broken": false,
-      "derivation": "/nix/store/s5wk2pzm2wckn7d3fwhz8fbaqz6g1bj0-autoconf-2.72.drv",
-      "description": "Part of the GNU Build System",
-      "install_id": "autoconf",
-      "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "name": "autoconf-2.72",
-      "pname": "autoconf",
-      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "rev_count": 811950,
-      "rev_date": "2025-06-07T08:35:48Z",
-      "scrape_date": "2025-06-09T04:23:50.552188Z",
-      "stabilities": [
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "2.72",
-      "outputs_to_install": [
-        "out"
-      ],
-      "outputs": {
-        "doc": "/nix/store/ga09zl4hlxni0sshgibvd3rg7088wi8i-autoconf-2.72-doc",
-        "out": "/nix/store/ya954fbyialirl4dbxqwmyl4sf9k6rzb-autoconf-2.72"
-      },
-      "system": "aarch64-darwin",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "autoconf",
-      "broken": false,
-      "derivation": "/nix/store/qly9wcsm6gyfyfk42z0yzn1n75ii616z-autoconf-2.72.drv",
-      "description": "Part of the GNU Build System",
-      "install_id": "autoconf",
-      "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "name": "autoconf-2.72",
-      "pname": "autoconf",
-      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "rev_count": 811950,
-      "rev_date": "2025-06-07T08:35:48Z",
-      "scrape_date": "2025-06-09T04:41:57.654327Z",
-      "stabilities": [
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "2.72",
-      "outputs_to_install": [
-        "out"
-      ],
-      "outputs": {
-        "doc": "/nix/store/d24x2klrbkbxpa46r80aadp5svz79sgq-autoconf-2.72-doc",
-        "out": "/nix/store/82yd6pf3129qd6a4kxx7pi2x9vrbydk9-autoconf-2.72"
-      },
-      "system": "aarch64-linux",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "autoconf",
-      "broken": false,
-      "derivation": "/nix/store/4f90xz6l8ip7ylv2sp8yl14x6js60z8k-autoconf-2.72.drv",
-      "description": "Part of the GNU Build System",
-      "install_id": "autoconf",
-      "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "name": "autoconf-2.72",
-      "pname": "autoconf",
-      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "rev_count": 811950,
-      "rev_date": "2025-06-07T08:35:48Z",
-      "scrape_date": "2025-06-09T04:58:20.806177Z",
-      "stabilities": [
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "2.72",
-      "outputs_to_install": [
-        "out"
-      ],
-      "outputs": {
-        "doc": "/nix/store/5lk3w7dsz49zn3d1cdzl587caa8774qv-autoconf-2.72-doc",
-        "out": "/nix/store/2rmgq0vny8iwancxjxlrfxnhxjr8m2vf-autoconf-2.72"
-      },
-      "system": "x86_64-darwin",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "autoconf",
-      "broken": false,
-      "derivation": "/nix/store/kmkmzqjkv549mwiwy2q1k32cvmaw0f24-autoconf-2.72.drv",
-      "description": "Part of the GNU Build System",
-      "install_id": "autoconf",
-      "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "name": "autoconf-2.72",
-      "pname": "autoconf",
-      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "rev_count": 811950,
-      "rev_date": "2025-06-07T08:35:48Z",
-      "scrape_date": "2025-06-09T05:17:40.872291Z",
-      "stabilities": [
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "2.72",
-      "outputs_to_install": [
-        "out"
-      ],
-      "outputs": {
-        "doc": "/nix/store/6ww2brx49cliq4dfws1wcilfsir6ilkc-autoconf-2.72-doc",
-        "out": "/nix/store/rppb57q1ssi4pb9y60bs7h7bf3kf0h7p-autoconf-2.72"
-      },
-      "system": "x86_64-linux",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "autoconf-archive",
-      "broken": false,
-      "derivation": "/nix/store/b9y28r1lhdj6rblnygwjanz0gls650il-autoconf-archive-2024.10.16.drv",
-      "description": "Archive of autoconf m4 macros",
-      "install_id": "autoconf-archive",
-      "license": "GPL-3.0",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "name": "autoconf-archive-2024.10.16",
-      "pname": "autoconf-archive",
-      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "rev_count": 811950,
-      "rev_date": "2025-06-07T08:35:48Z",
-      "scrape_date": "2025-06-09T04:23:50.552260Z",
-      "stabilities": [
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "2024.10.16",
-      "outputs_to_install": [
-        "out"
-      ],
-      "outputs": {
-        "out": "/nix/store/ymdjs1dj7h1x3rai49bpws1axbjlgbjx-autoconf-archive-2024.10.16"
-      },
-      "system": "aarch64-darwin",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "autoconf-archive",
-      "broken": false,
-      "derivation": "/nix/store/i4qanphh8lffnd643p436y0pmj70d0i0-autoconf-archive-2024.10.16.drv",
-      "description": "Archive of autoconf m4 macros",
-      "install_id": "autoconf-archive",
-      "license": "GPL-3.0",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "name": "autoconf-archive-2024.10.16",
-      "pname": "autoconf-archive",
-      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "rev_count": 811950,
-      "rev_date": "2025-06-07T08:35:48Z",
-      "scrape_date": "2025-06-09T04:41:57.654406Z",
-      "stabilities": [
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "2024.10.16",
-      "outputs_to_install": [
-        "out"
-      ],
-      "outputs": {
-        "out": "/nix/store/klsdsa15r9iiajf9yb2zc3fdllslchgc-autoconf-archive-2024.10.16"
-      },
-      "system": "aarch64-linux",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "autoconf-archive",
-      "broken": false,
-      "derivation": "/nix/store/skrhj1gwgcp4jgspspmi21wfpq1jiygr-autoconf-archive-2024.10.16.drv",
-      "description": "Archive of autoconf m4 macros",
-      "install_id": "autoconf-archive",
-      "license": "GPL-3.0",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "name": "autoconf-archive-2024.10.16",
-      "pname": "autoconf-archive",
-      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "rev_count": 811950,
-      "rev_date": "2025-06-07T08:35:48Z",
-      "scrape_date": "2025-06-09T04:58:20.806249Z",
-      "stabilities": [
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "2024.10.16",
-      "outputs_to_install": [
-        "out"
-      ],
-      "outputs": {
-        "out": "/nix/store/gc8fbix9dnzzb1gq763l65sajxxkwcj3-autoconf-archive-2024.10.16"
-      },
-      "system": "x86_64-darwin",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "autoconf-archive",
-      "broken": false,
-      "derivation": "/nix/store/6avmi5pr38x5jbv9nh7w5bsbqh93sxgs-autoconf-archive-2024.10.16.drv",
-      "description": "Archive of autoconf m4 macros",
-      "install_id": "autoconf-archive",
-      "license": "GPL-3.0",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "name": "autoconf-archive-2024.10.16",
-      "pname": "autoconf-archive",
-      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "rev_count": 811950,
-      "rev_date": "2025-06-07T08:35:48Z",
-      "scrape_date": "2025-06-09T05:17:40.872376Z",
-      "stabilities": [
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "2024.10.16",
-      "outputs_to_install": [
-        "out"
-      ],
-      "outputs": {
-        "out": "/nix/store/k5rf042ha8awain1ymj3li45ipiibl3c-autoconf-archive-2024.10.16"
-      },
-      "system": "x86_64-linux",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "automake",
-      "broken": false,
-      "derivation": "/nix/store/fcnjr547j9z9kxhbc3sc44v2wslzp6lv-automake-1.16.5.drv",
-      "description": "GNU standard-compliant makefile generator",
-      "install_id": "automake",
-      "license": "GPL-2.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "name": "automake-1.16.5",
-      "pname": "automake",
-      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "rev_count": 811950,
-      "rev_date": "2025-06-07T08:35:48Z",
-      "scrape_date": "2025-06-09T04:23:50.553209Z",
-      "stabilities": [
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "1.16.5",
-      "outputs_to_install": [
-        "out"
-      ],
-      "outputs": {
-        "out": "/nix/store/hfc2gzvkgd7zbdb9r1mjhh07yyz3rlx0-automake-1.16.5"
-      },
-      "system": "aarch64-darwin",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "automake",
-      "broken": false,
-      "derivation": "/nix/store/rfq2pa8wr5c675mmzn4m2hzyq2ga0p01-automake-1.16.5.drv",
-      "description": "GNU standard-compliant makefile generator",
-      "install_id": "automake",
-      "license": "GPL-2.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "name": "automake-1.16.5",
-      "pname": "automake",
-      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "rev_count": 811950,
-      "rev_date": "2025-06-07T08:35:48Z",
-      "scrape_date": "2025-06-09T04:41:57.655596Z",
-      "stabilities": [
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "1.16.5",
-      "outputs_to_install": [
-        "out"
-      ],
-      "outputs": {
-        "out": "/nix/store/ld6gy8qh0hx2dcidk3h7fpg59968n52f-automake-1.16.5"
-      },
-      "system": "aarch64-linux",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "automake",
-      "broken": false,
-      "derivation": "/nix/store/gxv20hsd7wddgq67kky6wzvc8nny7h72-automake-1.16.5.drv",
-      "description": "GNU standard-compliant makefile generator",
-      "install_id": "automake",
-      "license": "GPL-2.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "name": "automake-1.16.5",
-      "pname": "automake",
-      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "rev_count": 811950,
-      "rev_date": "2025-06-07T08:35:48Z",
-      "scrape_date": "2025-06-09T04:58:20.807197Z",
-      "stabilities": [
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "1.16.5",
-      "outputs_to_install": [
-        "out"
-      ],
-      "outputs": {
-        "out": "/nix/store/8rk6i03jfyajf37l89yqp43bjzqbs0si-automake-1.16.5"
-      },
-      "system": "x86_64-darwin",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "automake",
-      "broken": false,
-      "derivation": "/nix/store/z5585k3hdckbpmqayifh8ln8r7n2z1dv-automake-1.16.5.drv",
-      "description": "GNU standard-compliant makefile generator",
-      "install_id": "automake",
-      "license": "GPL-2.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "name": "automake-1.16.5",
-      "pname": "automake",
-      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "rev_count": 811950,
-      "rev_date": "2025-06-07T08:35:48Z",
-      "scrape_date": "2025-06-09T05:17:40.873656Z",
-      "stabilities": [
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "1.16.5",
-      "outputs_to_install": [
-        "out"
-      ],
-      "outputs": {
-        "out": "/nix/store/6zj6ck5vpwhlw0kkmaq47pn63s29qm55-automake-1.16.5"
-      },
-      "system": "x86_64-linux",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "bash",
-      "broken": false,
-      "derivation": "/nix/store/0dh91zr8cm3c3r5pmyfp6v79r1fx2map-bash-interactive-5.2p37.drv",
-      "description": "GNU Bourne-Again Shell, the de facto standard shell on Linux (for interactive use)",
-      "install_id": "bash",
-      "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "name": "bash-interactive-5.2p37",
-      "pname": "bash",
-      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "rev_count": 811950,
-      "rev_date": "2025-06-07T08:35:48Z",
-      "scrape_date": "2025-06-09T04:23:50.610713Z",
-      "stabilities": [
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "5.2p37",
-      "outputs_to_install": [
-        "man",
-        "out"
-      ],
-      "outputs": {
-        "dev": "/nix/store/53a61nyj51khjiclybi6vgrznjraib3b-bash-interactive-5.2p37-dev",
-        "doc": "/nix/store/7yli2zlcgjfagc27v41lwswmixmggdwa-bash-interactive-5.2p37-doc",
-        "info": "/nix/store/83vss0vbdrq05jwfrhgn8055bfcr44c7-bash-interactive-5.2p37-info",
-        "man": "/nix/store/yqmbsgprykp8rkzmnzghjj043zb385ww-bash-interactive-5.2p37-man",
-        "out": "/nix/store/g2r737j05jgy19c2yqnyvs71w8bxk4b1-bash-interactive-5.2p37"
-      },
-      "system": "aarch64-darwin",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "bash",
-      "broken": false,
-      "derivation": "/nix/store/pf9af7mr8x5y7p1756rw5dnlpb5509kb-bash-interactive-5.2p37.drv",
-      "description": "GNU Bourne-Again Shell, the de facto standard shell on Linux (for interactive use)",
-      "install_id": "bash",
-      "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "name": "bash-interactive-5.2p37",
-      "pname": "bash",
-      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "rev_count": 811950,
-      "rev_date": "2025-06-07T08:35:48Z",
-      "scrape_date": "2025-06-09T04:41:57.689887Z",
-      "stabilities": [
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "5.2p37",
-      "outputs_to_install": [
-        "man",
-        "out"
-      ],
-      "outputs": {
-        "debug": "/nix/store/hkc6bh31i4s7vsjyha8nk4dxrms48is8-bash-interactive-5.2p37-debug",
-        "dev": "/nix/store/x47l5zj1bw3imkb975yx31h3clydrzha-bash-interactive-5.2p37-dev",
-        "doc": "/nix/store/byi69qi0r7lfs6c4j52qr4p75h00168v-bash-interactive-5.2p37-doc",
-        "info": "/nix/store/c1c3xyf5swa2ssr9lpssqyk44d2vpg1j-bash-interactive-5.2p37-info",
-        "man": "/nix/store/s8dwwp6wz73yr946a4sjsal4ijljv3m4-bash-interactive-5.2p37-man",
-        "out": "/nix/store/0lg0kxzr3j67sl6ydrkcmcqk01jg89aa-bash-interactive-5.2p37"
-      },
-      "system": "aarch64-linux",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "bash",
-      "broken": false,
-      "derivation": "/nix/store/gp69vf2xrf411g622mg5f7dpchgjk02j-bash-interactive-5.2p37.drv",
-      "description": "GNU Bourne-Again Shell, the de facto standard shell on Linux (for interactive use)",
-      "install_id": "bash",
-      "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "name": "bash-interactive-5.2p37",
-      "pname": "bash",
-      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "rev_count": 811950,
-      "rev_date": "2025-06-07T08:35:48Z",
-      "scrape_date": "2025-06-09T04:58:20.833773Z",
-      "stabilities": [
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "5.2p37",
-      "outputs_to_install": [
-        "man",
-        "out"
-      ],
-      "outputs": {
-        "dev": "/nix/store/cp4lxxx520jm6l87p7drk72fikwrvg11-bash-interactive-5.2p37-dev",
-        "doc": "/nix/store/f8jf3h6m9x322rkilyph467zfr2wb7j0-bash-interactive-5.2p37-doc",
-        "info": "/nix/store/7hylfficsccag91m8pp7vpwkps52a9hp-bash-interactive-5.2p37-info",
-        "man": "/nix/store/a0zpkp6s878hi3vrhz2wvwynwndi31cc-bash-interactive-5.2p37-man",
-        "out": "/nix/store/iaa9ygh4y84ibrnd96j4pb5v0r5n87f3-bash-interactive-5.2p37"
-      },
-      "system": "x86_64-darwin",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "bash",
-      "broken": false,
-      "derivation": "/nix/store/fg8j7klr6mm1ki4qiq5a3fk5swp42b5f-bash-interactive-5.2p37.drv",
-      "description": "GNU Bourne-Again Shell, the de facto standard shell on Linux (for interactive use)",
-      "install_id": "bash",
-      "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "name": "bash-interactive-5.2p37",
-      "pname": "bash",
-      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "rev_count": 811950,
-      "rev_date": "2025-06-07T08:35:48Z",
-      "scrape_date": "2025-06-09T05:17:40.911267Z",
-      "stabilities": [
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "5.2p37",
-      "outputs_to_install": [
-        "man",
-        "out"
-      ],
-      "outputs": {
-        "debug": "/nix/store/lyi453yphbdm0q39knhkjw72dxz0pzb9-bash-interactive-5.2p37-debug",
-        "dev": "/nix/store/61hjink4vi1ac1lspy6qgl6mh9x8yxs4-bash-interactive-5.2p37-dev",
-        "doc": "/nix/store/3frg3li12mwq7g4fpmgkjv43x5bqad7d-bash-interactive-5.2p37-doc",
-        "info": "/nix/store/88cs6k2j021mh2ir1dzsl6m8vqgydyiw-bash-interactive-5.2p37-info",
-        "man": "/nix/store/s3zz5nasd7qr894a8jrp6fy52pdrz2f1-bash-interactive-5.2p37-man",
-        "out": "/nix/store/1q9lw4r2mbap8rsr8cja46nap6wvrw2p-bash-interactive-5.2p37"
-      },
-      "system": "x86_64-linux",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "gcc-unwrapped",
-      "broken": false,
-      "derivation": "/nix/store/vm9zv8kpmyh4i2spmcdvypiah1y8iryj-gcc-14.2.1.20250322.drv",
-      "description": "GNU Compiler Collection, version 14.2.1.20250322",
-      "install_id": "gcc",
-      "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "name": "gcc-14.2.1.20250322",
-      "pname": "gcc-unwrapped",
-      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "rev_count": 811950,
-      "rev_date": "2025-06-07T08:35:48Z",
-      "scrape_date": "2025-06-09T04:23:51.287418Z",
-      "stabilities": [
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "14.2.1.20250322",
-      "outputs_to_install": [
-        "man",
-        "out"
-      ],
-      "outputs": {
-        "info": "/nix/store/0ykjxjpjs7nfqknnhiqh2640p4jkmixn-gcc-14.2.1.20250322-info",
-        "lib": "/nix/store/7ygrbdw80zymx17y03gzjjnfsfyiyp67-gcc-14.2.1.20250322-lib",
-        "man": "/nix/store/5z6ry0jb7jp3adaqjjj47wggq0yicawv-gcc-14.2.1.20250322-man",
-        "out": "/nix/store/gf8ia4klf6kgh18j70injrxcsq9sz6f7-gcc-14.2.1.20250322"
-      },
-      "system": "aarch64-darwin",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "gcc-unwrapped",
-      "broken": false,
-      "derivation": "/nix/store/wxgzhk69shlv9cmlxml40l0gw3rpick0-gcc-14.2.1.20250322.drv",
-      "description": "GNU Compiler Collection, version 14.2.1.20250322",
-      "install_id": "gcc",
-      "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "name": "gcc-14.2.1.20250322",
-      "pname": "gcc-unwrapped",
-      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "rev_count": 811950,
-      "rev_date": "2025-06-07T08:35:48Z",
-      "scrape_date": "2025-06-09T04:41:58.803200Z",
-      "stabilities": [
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "14.2.1.20250322",
-      "outputs_to_install": [
-        "man",
-        "out"
-      ],
-      "outputs": {
-        "checksum": "/nix/store/gxpll86s5fyldrb3l7wv3vqw9nrwgrn1-gcc-14.2.1.20250322-checksum",
-        "info": "/nix/store/c64pc5rzpqkc8yyfqn5jh4n0bhiz3mvx-gcc-14.2.1.20250322-info",
-        "lib": "/nix/store/gd2iijcd4yaglkmkz3csbbvg81nd3k7x-gcc-14.2.1.20250322-lib",
-        "libgcc": "/nix/store/cbq7lhd043rwg76bjkxwgx0qixiqbwjw-gcc-14.2.1.20250322-libgcc",
-        "man": "/nix/store/3z80xkqynn17j9cai1vqia7l986dl6a1-gcc-14.2.1.20250322-man",
-        "out": "/nix/store/nnsfrpjjdfj1g8ydgv6g4lxhlxkqwalb-gcc-14.2.1.20250322"
-      },
-      "system": "aarch64-linux",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "gcc-unwrapped",
-      "broken": false,
-      "derivation": "/nix/store/f4k4gw0zx907mnv63hr213h5y4syz7mb-gcc-14.2.1.20250322.drv",
-      "description": "GNU Compiler Collection, version 14.2.1.20250322",
-      "install_id": "gcc",
-      "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "name": "gcc-14.2.1.20250322",
-      "pname": "gcc-unwrapped",
-      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "rev_count": 811950,
-      "rev_date": "2025-06-07T08:35:48Z",
-      "scrape_date": "2025-06-09T04:58:21.509439Z",
-      "stabilities": [
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "14.2.1.20250322",
-      "outputs_to_install": [
-        "man",
-        "out"
-      ],
-      "outputs": {
-        "info": "/nix/store/yp4rrx7d280733vqz56lbby0k1kw8blc-gcc-14.2.1.20250322-info",
-        "lib": "/nix/store/2fxl5l7svi1ma25msbg77is6va54g4la-gcc-14.2.1.20250322-lib",
-        "man": "/nix/store/86d7k4rdlsg9pknz1hkqq4j2xq6c9ndm-gcc-14.2.1.20250322-man",
-        "out": "/nix/store/3aymdqqs7niblnc6sgqvhgr5x5b4z82i-gcc-14.2.1.20250322"
-      },
-      "system": "x86_64-darwin",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "gcc-unwrapped",
-      "broken": false,
-      "derivation": "/nix/store/sjzbql9ja7p7c08ziagba11cnvj6lsz9-gcc-14.2.1.20250322.drv",
-      "description": "GNU Compiler Collection, version 14.2.1.20250322",
-      "install_id": "gcc",
-      "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "name": "gcc-14.2.1.20250322",
-      "pname": "gcc-unwrapped",
-      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "rev_count": 811950,
-      "rev_date": "2025-06-07T08:35:48Z",
-      "scrape_date": "2025-06-09T05:17:42.162164Z",
-      "stabilities": [
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "14.2.1.20250322",
-      "outputs_to_install": [
-        "man",
-        "out"
-      ],
-      "outputs": {
-        "checksum": "/nix/store/kbv0w3gnsksxagjx72l244cynfsiir62-gcc-14.2.1.20250322-checksum",
-        "info": "/nix/store/mq3fyynvvg5s86icqdi6j57074svhgzl-gcc-14.2.1.20250322-info",
-        "lib": "/nix/store/7c0v0kbrrdc2cqgisi78jdqxn73n3401-gcc-14.2.1.20250322-lib",
-        "libgcc": "/nix/store/6hqzbvz50bm87hcj4qfn51gh7arxj8a6-gcc-14.2.1.20250322-libgcc",
-        "man": "/nix/store/y0cm45kcs4rnf0y5ys9066l1rn7p3b0i-gcc-14.2.1.20250322-man",
-        "out": "/nix/store/9ds850ifd4jwcccpp3v14818kk74ldf2-gcc-14.2.1.20250322"
-      },
-      "system": "x86_64-linux",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "gnumake",
-      "broken": false,
-      "derivation": "/nix/store/0z9w4hr3wkrs4fdrk0h42isxzhxxlbi5-gnumake-4.4.1.drv",
-      "description": "Tool to control the generation of non-source files from sources",
-      "install_id": "gnumake",
-      "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "name": "gnumake-4.4.1",
-      "pname": "gnumake",
-      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "rev_count": 811950,
-      "rev_date": "2025-06-07T08:35:48Z",
-      "scrape_date": "2025-06-09T04:23:51.430490Z",
-      "stabilities": [
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "4.4.1",
-      "outputs_to_install": [
-        "man",
-        "out"
-      ],
-      "outputs": {
-        "info": "/nix/store/4ykdx0lpl2dn8knnab0bap11prr7zzky-gnumake-4.4.1-info",
-        "man": "/nix/store/x59n9rzr26vf9cr0aapfakhrqhg7vy18-gnumake-4.4.1-man",
-        "out": "/nix/store/wkq7f52a2xq4n24f545wy2fidm4z14f2-gnumake-4.4.1"
-      },
-      "system": "aarch64-darwin",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "gnumake",
-      "broken": false,
-      "derivation": "/nix/store/pya8baigzsh8ddrq9zhwn3ppk07qihmh-gnumake-4.4.1.drv",
-      "description": "Tool to control the generation of non-source files from sources",
-      "install_id": "gnumake",
-      "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "name": "gnumake-4.4.1",
-      "pname": "gnumake",
-      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "rev_count": 811950,
-      "rev_date": "2025-06-07T08:35:48Z",
-      "scrape_date": "2025-06-09T04:41:59.295493Z",
-      "stabilities": [
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "4.4.1",
-      "outputs_to_install": [
-        "man",
-        "out"
-      ],
-      "outputs": {
-        "debug": "/nix/store/wwhf09gg8ddpl4c6mx70pk3r3a6qx95r-gnumake-4.4.1-debug",
-        "info": "/nix/store/8wcb953rsjvp2ybi7iig6hjls48w87dj-gnumake-4.4.1-info",
-        "man": "/nix/store/f6b4ph7wflz6ylw3lylbiqrr72xs9jw5-gnumake-4.4.1-man",
-        "out": "/nix/store/946sh8bs8hrlrb4jhwxqzllr37zb2q0y-gnumake-4.4.1"
-      },
-      "system": "aarch64-linux",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "gnumake",
-      "broken": false,
-      "derivation": "/nix/store/dla3vbdflxl9qwj4hvq2mn4xbsfic3gm-gnumake-4.4.1.drv",
-      "description": "Tool to control the generation of non-source files from sources",
-      "install_id": "gnumake",
-      "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "name": "gnumake-4.4.1",
-      "pname": "gnumake",
-      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "rev_count": 811950,
-      "rev_date": "2025-06-07T08:35:48Z",
-      "scrape_date": "2025-06-09T04:58:21.682451Z",
-      "stabilities": [
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "4.4.1",
-      "outputs_to_install": [
-        "man",
-        "out"
-      ],
-      "outputs": {
-        "info": "/nix/store/14vf2zb0z70c67k2nzyqaz8b9rfjy73r-gnumake-4.4.1-info",
-        "man": "/nix/store/22x6iviphcn6zlbvhihbvws00iavf9aj-gnumake-4.4.1-man",
-        "out": "/nix/store/1fd85ai3984ah9cy31c7m1fn6i2mm66s-gnumake-4.4.1"
-      },
-      "system": "x86_64-darwin",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "gnumake",
-      "broken": false,
-      "derivation": "/nix/store/yhc71a2s1xkzgv9x20nyyrc5c9z9nc14-gnumake-4.4.1.drv",
-      "description": "Tool to control the generation of non-source files from sources",
-      "install_id": "gnumake",
-      "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "name": "gnumake-4.4.1",
-      "pname": "gnumake",
-      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "rev_count": 811950,
-      "rev_date": "2025-06-07T08:35:48Z",
-      "scrape_date": "2025-06-09T05:17:42.721398Z",
-      "stabilities": [
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "4.4.1",
-      "outputs_to_install": [
-        "man",
-        "out"
-      ],
-      "outputs": {
-        "debug": "/nix/store/c59bxh8h9rnpp3l7y8i8zirpvp703z8w-gnumake-4.4.1-debug",
-        "info": "/nix/store/xqygkvkp7cghyk66aivysnr88q24dsms-gnumake-4.4.1-info",
-        "man": "/nix/store/5g01b5r1dbk91kwy4jld5vc1asy0mir4-gnumake-4.4.1-man",
-        "out": "/nix/store/p7z72c2s722pbw31jmm3y0nwypksb5fj-gnumake-4.4.1"
-      },
-      "system": "x86_64-linux",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "gnused",
-      "broken": false,
-      "derivation": "/nix/store/f8hpl6ki6pmhns0kbrcqdv92r0ik24j6-gnused-4.9.drv",
-      "description": "GNU sed, a batch stream editor",
-      "install_id": "gnused",
-      "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "name": "gnused-4.9",
-      "pname": "gnused",
-      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "rev_count": 811950,
-      "rev_date": "2025-06-07T08:35:48Z",
-      "scrape_date": "2025-06-09T04:23:51.434942Z",
-      "stabilities": [
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "4.9",
-      "outputs_to_install": [
-        "out"
-      ],
-      "outputs": {
-        "info": "/nix/store/pbkxwn9a1nkz5ym428fkwgkdsk05y5is-gnused-4.9-info",
-        "out": "/nix/store/3p81h24g11jfcdd7ifql71lr5mjag102-gnused-4.9"
-      },
-      "system": "aarch64-darwin",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "gnused",
-      "broken": false,
-      "derivation": "/nix/store/lgk6l6bqmrf380fvd0p5bcp78668adnq-gnused-4.9.drv",
-      "description": "GNU sed, a batch stream editor",
-      "install_id": "gnused",
-      "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "name": "gnused-4.9",
-      "pname": "gnused",
-      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "rev_count": 811950,
-      "rev_date": "2025-06-07T08:35:48Z",
-      "scrape_date": "2025-06-09T04:41:59.302362Z",
-      "stabilities": [
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "4.9",
-      "outputs_to_install": [
-        "out"
-      ],
-      "outputs": {
-        "info": "/nix/store/cyy5a0r1blpnkmsj8kvy18ria1ss1c6h-gnused-4.9-info",
-        "out": "/nix/store/qarfi1yp1r71kqwbxipncgnsj5qsnm69-gnused-4.9"
-      },
-      "system": "aarch64-linux",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "gnused",
-      "broken": false,
-      "derivation": "/nix/store/1w89hws2y0aicyy1pbazv6w4q3lw3sjm-gnused-4.9.drv",
-      "description": "GNU sed, a batch stream editor",
-      "install_id": "gnused",
-      "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "name": "gnused-4.9",
-      "pname": "gnused",
-      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "rev_count": 811950,
-      "rev_date": "2025-06-07T08:35:48Z",
-      "scrape_date": "2025-06-09T04:58:21.687009Z",
-      "stabilities": [
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "4.9",
-      "outputs_to_install": [
-        "out"
-      ],
-      "outputs": {
-        "info": "/nix/store/zagjaa6iilp4bnip2ra45qbylgfws7qm-gnused-4.9-info",
-        "out": "/nix/store/3fqggn1iq66h3yk73h455yyjc2q7895p-gnused-4.9"
-      },
-      "system": "x86_64-darwin",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "gnused",
-      "broken": false,
-      "derivation": "/nix/store/x0cw2kvqs4m62dymbbhm51p66v0k1s93-gnused-4.9.drv",
-      "description": "GNU sed, a batch stream editor",
-      "install_id": "gnused",
-      "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "name": "gnused-4.9",
-      "pname": "gnused",
-      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "rev_count": 811950,
-      "rev_date": "2025-06-07T08:35:48Z",
-      "scrape_date": "2025-06-09T05:17:42.728756Z",
-      "stabilities": [
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "4.9",
-      "outputs_to_install": [
-        "out"
-      ],
-      "outputs": {
-        "info": "/nix/store/i65zra2i21y5khnsnvl0pvd5rkvw5qhl-gnused-4.9-info",
-        "out": "/nix/store/clbb2cvigynr235ab5zgi18dyavznlk2-gnused-4.9"
-      },
-      "system": "x86_64-linux",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "gum",
-      "broken": false,
-      "derivation": "/nix/store/yv70qrsp1yzx5mb5zy4zlfwi2bwkbwss-gum-0.16.0.drv",
-      "description": "Tasty Bubble Gum for your shell",
-      "install_id": "gum",
-      "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "name": "gum-0.16.0",
-      "pname": "gum",
-      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "rev_count": 811950,
-      "rev_date": "2025-06-07T08:35:48Z",
-      "scrape_date": "2025-06-09T04:23:51.576809Z",
-      "stabilities": [
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "0.16.0",
-      "outputs_to_install": [
-        "out"
-      ],
-      "outputs": {
-        "out": "/nix/store/amyw3aaqgpchs5cq8hh3d1wdy1hxfjav-gum-0.16.0"
-      },
-      "system": "aarch64-darwin",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "gum",
-      "broken": false,
-      "derivation": "/nix/store/lszdflnyl97a0xq0xpx09shx4jcg6n1c-gum-0.16.0.drv",
-      "description": "Tasty Bubble Gum for your shell",
-      "install_id": "gum",
-      "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "name": "gum-0.16.0",
-      "pname": "gum",
-      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "rev_count": 811950,
-      "rev_date": "2025-06-07T08:35:48Z",
-      "scrape_date": "2025-06-09T04:41:59.562182Z",
-      "stabilities": [
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "0.16.0",
-      "outputs_to_install": [
-        "out"
-      ],
-      "outputs": {
-        "out": "/nix/store/l6v1k7zn25ndvm4axmsbf10b8v8g78jp-gum-0.16.0"
-      },
-      "system": "aarch64-linux",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "gum",
-      "broken": false,
-      "derivation": "/nix/store/yzvac0ykppj3rg98dj7ayn9l71j11czc-gum-0.16.0.drv",
-      "description": "Tasty Bubble Gum for your shell",
-      "install_id": "gum",
-      "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "name": "gum-0.16.0",
-      "pname": "gum",
-      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "rev_count": 811950,
-      "rev_date": "2025-06-07T08:35:48Z",
-      "scrape_date": "2025-06-09T04:58:21.833302Z",
-      "stabilities": [
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "0.16.0",
-      "outputs_to_install": [
-        "out"
-      ],
-      "outputs": {
-        "out": "/nix/store/mkz77pxvh7h0iamhwwbzmaamcbnri130-gum-0.16.0"
-      },
-      "system": "x86_64-darwin",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "gum",
-      "broken": false,
-      "derivation": "/nix/store/jm03h6xp7145zq9gfk610aiv5sx575zg-gum-0.16.0.drv",
-      "description": "Tasty Bubble Gum for your shell",
-      "install_id": "gum",
-      "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "name": "gum-0.16.0",
-      "pname": "gum",
-      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "rev_count": 811950,
-      "rev_date": "2025-06-07T08:35:48Z",
-      "scrape_date": "2025-06-09T05:17:43.013805Z",
-      "stabilities": [
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "0.16.0",
-      "outputs_to_install": [
-        "out"
-      ],
-      "outputs": {
-        "out": "/nix/store/w094m6kjn97wa2wrvj4mrjng0fnzmpw3-gum-0.16.0"
-      },
-      "system": "x86_64-linux",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "libtool",
-      "broken": false,
-      "derivation": "/nix/store/b5hf4bh0i8j73lak03pndwq34733c990-libtool-2.5.4.drv",
-      "description": "GNU Libtool, a generic library support script",
-      "install_id": "libtool",
-      "license": "GPL-2.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "name": "libtool-2.5.4",
-      "pname": "libtool",
-      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "rev_count": 811950,
-      "rev_date": "2025-06-07T08:35:48Z",
-      "scrape_date": "2025-06-09T04:23:52.456749Z",
-      "stabilities": [
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "2.5.4",
-      "outputs_to_install": [
-        "out"
-      ],
-      "outputs": {
-        "lib": "/nix/store/26rznxy53qw29qd98cgm8qcsv2vp47qh-libtool-2.5.4-lib",
-        "out": "/nix/store/lalq01iwpblgz48wk172ca43n2xvgfbs-libtool-2.5.4"
-      },
-      "system": "aarch64-darwin",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "libtool",
-      "broken": false,
-      "derivation": "/nix/store/ii9x5sz4p21hkzzgl7zl73vp0lg2fvvb-libtool-2.5.4.drv",
-      "description": "GNU Libtool, a generic library support script",
-      "install_id": "libtool",
-      "license": "GPL-2.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "name": "libtool-2.5.4",
-      "pname": "libtool",
-      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "rev_count": 811950,
-      "rev_date": "2025-06-07T08:35:48Z",
-      "scrape_date": "2025-06-09T04:42:02.107430Z",
-      "stabilities": [
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "2.5.4",
-      "outputs_to_install": [
-        "out"
-      ],
-      "outputs": {
-        "lib": "/nix/store/46cbbckbiz6sad1g29gw9j0lz2pgaj6i-libtool-2.5.4-lib",
-        "out": "/nix/store/ywycw735rqzfg128sc1hs51k962s749h-libtool-2.5.4"
-      },
-      "system": "aarch64-linux",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "libtool",
-      "broken": false,
-      "derivation": "/nix/store/858wpnb8a05z8l93pnsfxz768ck8kr1k-libtool-2.5.4.drv",
-      "description": "GNU Libtool, a generic library support script",
-      "install_id": "libtool",
-      "license": "GPL-2.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "name": "libtool-2.5.4",
-      "pname": "libtool",
-      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "rev_count": 811950,
-      "rev_date": "2025-06-07T08:35:48Z",
-      "scrape_date": "2025-06-09T04:58:22.721525Z",
-      "stabilities": [
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "2.5.4",
-      "outputs_to_install": [
-        "out"
-      ],
-      "outputs": {
-        "lib": "/nix/store/8sy4vxfllvbj2q9ablrfdqyl2bpgbfvc-libtool-2.5.4-lib",
-        "out": "/nix/store/b0rx6i5dcmn0slxw1mwbkfgfis7i9pwb-libtool-2.5.4"
-      },
-      "system": "x86_64-darwin",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "libtool",
-      "broken": false,
-      "derivation": "/nix/store/xm85r0pwk13hmik0bcgzqy4qrak48y03-libtool-2.5.4.drv",
-      "description": "GNU Libtool, a generic library support script",
-      "install_id": "libtool",
-      "license": "GPL-2.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "name": "libtool-2.5.4",
-      "pname": "libtool",
-      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "rev_count": 811950,
-      "rev_date": "2025-06-07T08:35:48Z",
-      "scrape_date": "2025-06-09T05:17:45.779813Z",
-      "stabilities": [
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "2.5.4",
-      "outputs_to_install": [
-        "out"
-      ],
-      "outputs": {
-        "lib": "/nix/store/np37flx1k0dj0j0xgxzkxs069sb5h4k3-libtool-2.5.4-lib",
-        "out": "/nix/store/l2sgvfcyqc1bgnzpz86qw5pjq99j8vlw-libtool-2.5.4"
-      },
-      "system": "x86_64-linux",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "patch",
-      "broken": false,
-      "derivation": "/nix/store/5k8phlzpmypm9n3wiif45p13xfsyb3rq-patch-2.7.6.drv",
-      "description": "GNU Patch, a program to apply differences to files",
-      "install_id": "patch",
-      "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "name": "patch-2.7.6",
-      "pname": "patch",
-      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "rev_count": 811950,
-      "rev_date": "2025-06-07T08:35:48Z",
-      "scrape_date": "2025-06-09T04:23:54.905242Z",
-      "stabilities": [
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "2.7.6",
-      "outputs_to_install": [
-        "out"
-      ],
-      "outputs": {
-        "out": "/nix/store/n1i5qvy1jcblq3s1ilnmc83yqcl0l8vk-patch-2.7.6"
-      },
-      "system": "aarch64-darwin",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "patch",
-      "broken": false,
-      "derivation": "/nix/store/v8d90lym8cvqnl4hyzisgasyfg1kp03x-patch-2.7.6.drv",
-      "description": "GNU Patch, a program to apply differences to files",
-      "install_id": "patch",
-      "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "name": "patch-2.7.6",
-      "pname": "patch",
-      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "rev_count": 811950,
-      "rev_date": "2025-06-07T08:35:48Z",
-      "scrape_date": "2025-06-09T04:42:11.130964Z",
-      "stabilities": [
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "2.7.6",
-      "outputs_to_install": [
-        "out"
-      ],
-      "outputs": {
-        "out": "/nix/store/34ddx7pmjlkdrqzvyz761vbgl310cvpj-patch-2.7.6"
-      },
-      "system": "aarch64-linux",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "patch",
-      "broken": false,
-      "derivation": "/nix/store/ch2395r0rx86axwas005mf0g1zjrxnvq-patch-2.7.6.drv",
-      "description": "GNU Patch, a program to apply differences to files",
-      "install_id": "patch",
-      "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "name": "patch-2.7.6",
-      "pname": "patch",
-      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "rev_count": 811950,
-      "rev_date": "2025-06-07T08:35:48Z",
-      "scrape_date": "2025-06-09T04:58:25.184814Z",
-      "stabilities": [
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "2.7.6",
-      "outputs_to_install": [
-        "out"
-      ],
-      "outputs": {
-        "out": "/nix/store/40pysafk0c4pil6d1p52pmzghfdgj0il-patch-2.7.6"
-      },
-      "system": "x86_64-darwin",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "patch",
-      "broken": false,
-      "derivation": "/nix/store/smpm2ypcsp919b7w4dj1h60x9vvzcyf4-patch-2.7.6.drv",
-      "description": "GNU Patch, a program to apply differences to files",
-      "install_id": "patch",
-      "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "name": "patch-2.7.6",
-      "pname": "patch",
-      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "rev_count": 811950,
-      "rev_date": "2025-06-07T08:35:48Z",
-      "scrape_date": "2025-06-09T05:17:56.898505Z",
-      "stabilities": [
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "2.7.6",
-      "outputs_to_install": [
-        "out"
-      ],
-      "outputs": {
-        "out": "/nix/store/x0kaspzb5jqvgp357bj27z6iq24ximfg-patch-2.7.6"
-      },
-      "system": "x86_64-linux",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "pkg-config",
-      "broken": false,
-      "derivation": "/nix/store/0abxnz07gbqqd5fdz6j907ji30j34d5d-pkg-config-wrapper-0.29.2.drv",
-      "description": "Tool that allows packages to find out information about other packages (wrapper script)",
-      "install_id": "pkgconfig",
-      "license": "GPL-2.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "name": "pkg-config-wrapper-0.29.2",
-      "pname": "pkg-config",
-      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "rev_count": 811950,
-      "rev_date": "2025-06-07T08:35:48Z",
-      "scrape_date": "2025-06-09T04:23:58.956531Z",
-      "stabilities": [
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "0.29.2",
-      "outputs_to_install": [
-        "man",
-        "out"
-      ],
-      "outputs": {
-        "doc": "/nix/store/3ynyhaw76lpyrq90izswniwi30w44ijs-pkg-config-wrapper-0.29.2-doc",
-        "man": "/nix/store/wnc0cjzgh9njz9gzmr1xpri7g8azbmll-pkg-config-wrapper-0.29.2-man",
-        "out": "/nix/store/svafyjg9cly5zrq6hvbd34d14szvx2l7-pkg-config-wrapper-0.29.2"
-      },
-      "system": "aarch64-darwin",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "pkg-config",
-      "broken": false,
-      "derivation": "/nix/store/xqxnjsbc129cpgpf7gpzaw1skm2byp3h-pkg-config-wrapper-0.29.2.drv",
-      "description": "Tool that allows packages to find out information about other packages (wrapper script)",
-      "install_id": "pkgconfig",
-      "license": "GPL-2.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "name": "pkg-config-wrapper-0.29.2",
-      "pname": "pkg-config",
-      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "rev_count": 811950,
-      "rev_date": "2025-06-07T08:35:48Z",
-      "scrape_date": "2025-06-09T04:42:18.126636Z",
-      "stabilities": [
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "0.29.2",
-      "outputs_to_install": [
-        "man",
-        "out"
-      ],
-      "outputs": {
-        "doc": "/nix/store/axcsk9bmq0q4dg3asfnfifwk6s3ci1qd-pkg-config-wrapper-0.29.2-doc",
-        "man": "/nix/store/gw2zj9jkdf8369zmmxyc6g1siclmshdd-pkg-config-wrapper-0.29.2-man",
-        "out": "/nix/store/gzm371m389j42zak90jpg2bnx4cdkyh2-pkg-config-wrapper-0.29.2"
-      },
-      "system": "aarch64-linux",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "pkg-config",
-      "broken": false,
-      "derivation": "/nix/store/8nii8knb8x3jz5c772qf9z5m9v626qi4-pkg-config-wrapper-0.29.2.drv",
-      "description": "Tool that allows packages to find out information about other packages (wrapper script)",
-      "install_id": "pkgconfig",
-      "license": "GPL-2.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "name": "pkg-config-wrapper-0.29.2",
-      "pname": "pkg-config",
-      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "rev_count": 811950,
-      "rev_date": "2025-06-07T08:35:48Z",
-      "scrape_date": "2025-06-09T04:58:29.253240Z",
-      "stabilities": [
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "0.29.2",
-      "outputs_to_install": [
-        "man",
-        "out"
-      ],
-      "outputs": {
-        "doc": "/nix/store/r03rfhl9fp32v02f30lp5ixx6j8bz6ii-pkg-config-wrapper-0.29.2-doc",
-        "man": "/nix/store/98m5gy9w2q1m4rw8hlsfglbhzkk8q26y-pkg-config-wrapper-0.29.2-man",
-        "out": "/nix/store/6a30pxqzr3hxspghxkx76r5i35dn8vw4-pkg-config-wrapper-0.29.2"
-      },
-      "system": "x86_64-darwin",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "pkg-config",
-      "broken": false,
-      "derivation": "/nix/store/pfdcqzk36ymraiylb23hik50j93jxzxm-pkg-config-wrapper-0.29.2.drv",
-      "description": "Tool that allows packages to find out information about other packages (wrapper script)",
-      "install_id": "pkgconfig",
-      "license": "GPL-2.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "name": "pkg-config-wrapper-0.29.2",
-      "pname": "pkg-config",
-      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
-      "rev_count": 811950,
-      "rev_date": "2025-06-07T08:35:48Z",
-      "scrape_date": "2025-06-09T05:18:04.545287Z",
-      "stabilities": [
-        "unstable"
-      ],
-      "unfree": false,
-      "version": "0.29.2",
-      "outputs_to_install": [
-        "man",
-        "out"
-      ],
-      "outputs": {
-        "doc": "/nix/store/8h5h1jw0pw5f7gj68day67wjfsdjmp02-pkg-config-wrapper-0.29.2-doc",
-        "man": "/nix/store/fsrf6bncxkzcd70xr4191vrnfr910fgx-pkg-config-wrapper-0.29.2-man",
-        "out": "/nix/store/2crk9xnq5x9v7yf0r2nwkgj8qsmxr4ly-pkg-config-wrapper-0.29.2"
-      },
-      "system": "x86_64-linux",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
       "attr_path": "file",
       "broken": false,
       "derivation": "/nix/store/iwmp3h5v2sbkg9kp2xj5kp5w0q6mg1lh-file-5.46.drv",
@@ -2846,6 +1490,1362 @@
       },
       "system": "x86_64-linux",
       "group": "dev",
+      "priority": 5
+    },
+    {
+      "attr_path": "autoconf",
+      "broken": false,
+      "derivation": "/nix/store/s5wk2pzm2wckn7d3fwhz8fbaqz6g1bj0-autoconf-2.72.drv",
+      "description": "Part of the GNU Build System",
+      "install_id": "autoconf",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "name": "autoconf-2.72",
+      "pname": "autoconf",
+      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "rev_count": 811950,
+      "rev_date": "2025-06-07T08:35:48Z",
+      "scrape_date": "2025-06-09T04:23:50.552188Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.72",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "doc": "/nix/store/ga09zl4hlxni0sshgibvd3rg7088wi8i-autoconf-2.72-doc",
+        "out": "/nix/store/ya954fbyialirl4dbxqwmyl4sf9k6rzb-autoconf-2.72"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "autoconf",
+      "broken": false,
+      "derivation": "/nix/store/qly9wcsm6gyfyfk42z0yzn1n75ii616z-autoconf-2.72.drv",
+      "description": "Part of the GNU Build System",
+      "install_id": "autoconf",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "name": "autoconf-2.72",
+      "pname": "autoconf",
+      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "rev_count": 811950,
+      "rev_date": "2025-06-07T08:35:48Z",
+      "scrape_date": "2025-06-09T04:41:57.654327Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.72",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "doc": "/nix/store/d24x2klrbkbxpa46r80aadp5svz79sgq-autoconf-2.72-doc",
+        "out": "/nix/store/82yd6pf3129qd6a4kxx7pi2x9vrbydk9-autoconf-2.72"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "autoconf",
+      "broken": false,
+      "derivation": "/nix/store/4f90xz6l8ip7ylv2sp8yl14x6js60z8k-autoconf-2.72.drv",
+      "description": "Part of the GNU Build System",
+      "install_id": "autoconf",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "name": "autoconf-2.72",
+      "pname": "autoconf",
+      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "rev_count": 811950,
+      "rev_date": "2025-06-07T08:35:48Z",
+      "scrape_date": "2025-06-09T04:58:20.806177Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.72",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "doc": "/nix/store/5lk3w7dsz49zn3d1cdzl587caa8774qv-autoconf-2.72-doc",
+        "out": "/nix/store/2rmgq0vny8iwancxjxlrfxnhxjr8m2vf-autoconf-2.72"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "autoconf",
+      "broken": false,
+      "derivation": "/nix/store/kmkmzqjkv549mwiwy2q1k32cvmaw0f24-autoconf-2.72.drv",
+      "description": "Part of the GNU Build System",
+      "install_id": "autoconf",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "name": "autoconf-2.72",
+      "pname": "autoconf",
+      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "rev_count": 811950,
+      "rev_date": "2025-06-07T08:35:48Z",
+      "scrape_date": "2025-06-09T05:17:40.872291Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.72",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "doc": "/nix/store/6ww2brx49cliq4dfws1wcilfsir6ilkc-autoconf-2.72-doc",
+        "out": "/nix/store/rppb57q1ssi4pb9y60bs7h7bf3kf0h7p-autoconf-2.72"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "autoconf-archive",
+      "broken": false,
+      "derivation": "/nix/store/b9y28r1lhdj6rblnygwjanz0gls650il-autoconf-archive-2024.10.16.drv",
+      "description": "Archive of autoconf m4 macros",
+      "install_id": "autoconf-archive",
+      "license": "GPL-3.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "name": "autoconf-archive-2024.10.16",
+      "pname": "autoconf-archive",
+      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "rev_count": 811950,
+      "rev_date": "2025-06-07T08:35:48Z",
+      "scrape_date": "2025-06-09T04:23:50.552260Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2024.10.16",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/ymdjs1dj7h1x3rai49bpws1axbjlgbjx-autoconf-archive-2024.10.16"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "autoconf-archive",
+      "broken": false,
+      "derivation": "/nix/store/i4qanphh8lffnd643p436y0pmj70d0i0-autoconf-archive-2024.10.16.drv",
+      "description": "Archive of autoconf m4 macros",
+      "install_id": "autoconf-archive",
+      "license": "GPL-3.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "name": "autoconf-archive-2024.10.16",
+      "pname": "autoconf-archive",
+      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "rev_count": 811950,
+      "rev_date": "2025-06-07T08:35:48Z",
+      "scrape_date": "2025-06-09T04:41:57.654406Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2024.10.16",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/klsdsa15r9iiajf9yb2zc3fdllslchgc-autoconf-archive-2024.10.16"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "autoconf-archive",
+      "broken": false,
+      "derivation": "/nix/store/skrhj1gwgcp4jgspspmi21wfpq1jiygr-autoconf-archive-2024.10.16.drv",
+      "description": "Archive of autoconf m4 macros",
+      "install_id": "autoconf-archive",
+      "license": "GPL-3.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "name": "autoconf-archive-2024.10.16",
+      "pname": "autoconf-archive",
+      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "rev_count": 811950,
+      "rev_date": "2025-06-07T08:35:48Z",
+      "scrape_date": "2025-06-09T04:58:20.806249Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2024.10.16",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/gc8fbix9dnzzb1gq763l65sajxxkwcj3-autoconf-archive-2024.10.16"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "autoconf-archive",
+      "broken": false,
+      "derivation": "/nix/store/6avmi5pr38x5jbv9nh7w5bsbqh93sxgs-autoconf-archive-2024.10.16.drv",
+      "description": "Archive of autoconf m4 macros",
+      "install_id": "autoconf-archive",
+      "license": "GPL-3.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "name": "autoconf-archive-2024.10.16",
+      "pname": "autoconf-archive",
+      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "rev_count": 811950,
+      "rev_date": "2025-06-07T08:35:48Z",
+      "scrape_date": "2025-06-09T05:17:40.872376Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2024.10.16",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/k5rf042ha8awain1ymj3li45ipiibl3c-autoconf-archive-2024.10.16"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "automake",
+      "broken": false,
+      "derivation": "/nix/store/fcnjr547j9z9kxhbc3sc44v2wslzp6lv-automake-1.16.5.drv",
+      "description": "GNU standard-compliant makefile generator",
+      "install_id": "automake",
+      "license": "GPL-2.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "name": "automake-1.16.5",
+      "pname": "automake",
+      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "rev_count": 811950,
+      "rev_date": "2025-06-07T08:35:48Z",
+      "scrape_date": "2025-06-09T04:23:50.553209Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.16.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/hfc2gzvkgd7zbdb9r1mjhh07yyz3rlx0-automake-1.16.5"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "automake",
+      "broken": false,
+      "derivation": "/nix/store/rfq2pa8wr5c675mmzn4m2hzyq2ga0p01-automake-1.16.5.drv",
+      "description": "GNU standard-compliant makefile generator",
+      "install_id": "automake",
+      "license": "GPL-2.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "name": "automake-1.16.5",
+      "pname": "automake",
+      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "rev_count": 811950,
+      "rev_date": "2025-06-07T08:35:48Z",
+      "scrape_date": "2025-06-09T04:41:57.655596Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.16.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/ld6gy8qh0hx2dcidk3h7fpg59968n52f-automake-1.16.5"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "automake",
+      "broken": false,
+      "derivation": "/nix/store/gxv20hsd7wddgq67kky6wzvc8nny7h72-automake-1.16.5.drv",
+      "description": "GNU standard-compliant makefile generator",
+      "install_id": "automake",
+      "license": "GPL-2.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "name": "automake-1.16.5",
+      "pname": "automake",
+      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "rev_count": 811950,
+      "rev_date": "2025-06-07T08:35:48Z",
+      "scrape_date": "2025-06-09T04:58:20.807197Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.16.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/8rk6i03jfyajf37l89yqp43bjzqbs0si-automake-1.16.5"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "automake",
+      "broken": false,
+      "derivation": "/nix/store/z5585k3hdckbpmqayifh8ln8r7n2z1dv-automake-1.16.5.drv",
+      "description": "GNU standard-compliant makefile generator",
+      "install_id": "automake",
+      "license": "GPL-2.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "name": "automake-1.16.5",
+      "pname": "automake",
+      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "rev_count": 811950,
+      "rev_date": "2025-06-07T08:35:48Z",
+      "scrape_date": "2025-06-09T05:17:40.873656Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.16.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/6zj6ck5vpwhlw0kkmaq47pn63s29qm55-automake-1.16.5"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "bash",
+      "broken": false,
+      "derivation": "/nix/store/0dh91zr8cm3c3r5pmyfp6v79r1fx2map-bash-interactive-5.2p37.drv",
+      "description": "GNU Bourne-Again Shell, the de facto standard shell on Linux (for interactive use)",
+      "install_id": "bash",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "name": "bash-interactive-5.2p37",
+      "pname": "bash",
+      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "rev_count": 811950,
+      "rev_date": "2025-06-07T08:35:48Z",
+      "scrape_date": "2025-06-09T04:23:50.610713Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "5.2p37",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/53a61nyj51khjiclybi6vgrznjraib3b-bash-interactive-5.2p37-dev",
+        "doc": "/nix/store/7yli2zlcgjfagc27v41lwswmixmggdwa-bash-interactive-5.2p37-doc",
+        "info": "/nix/store/83vss0vbdrq05jwfrhgn8055bfcr44c7-bash-interactive-5.2p37-info",
+        "man": "/nix/store/yqmbsgprykp8rkzmnzghjj043zb385ww-bash-interactive-5.2p37-man",
+        "out": "/nix/store/g2r737j05jgy19c2yqnyvs71w8bxk4b1-bash-interactive-5.2p37"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "bash",
+      "broken": false,
+      "derivation": "/nix/store/pf9af7mr8x5y7p1756rw5dnlpb5509kb-bash-interactive-5.2p37.drv",
+      "description": "GNU Bourne-Again Shell, the de facto standard shell on Linux (for interactive use)",
+      "install_id": "bash",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "name": "bash-interactive-5.2p37",
+      "pname": "bash",
+      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "rev_count": 811950,
+      "rev_date": "2025-06-07T08:35:48Z",
+      "scrape_date": "2025-06-09T04:41:57.689887Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "5.2p37",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "debug": "/nix/store/hkc6bh31i4s7vsjyha8nk4dxrms48is8-bash-interactive-5.2p37-debug",
+        "dev": "/nix/store/x47l5zj1bw3imkb975yx31h3clydrzha-bash-interactive-5.2p37-dev",
+        "doc": "/nix/store/byi69qi0r7lfs6c4j52qr4p75h00168v-bash-interactive-5.2p37-doc",
+        "info": "/nix/store/c1c3xyf5swa2ssr9lpssqyk44d2vpg1j-bash-interactive-5.2p37-info",
+        "man": "/nix/store/s8dwwp6wz73yr946a4sjsal4ijljv3m4-bash-interactive-5.2p37-man",
+        "out": "/nix/store/0lg0kxzr3j67sl6ydrkcmcqk01jg89aa-bash-interactive-5.2p37"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "bash",
+      "broken": false,
+      "derivation": "/nix/store/gp69vf2xrf411g622mg5f7dpchgjk02j-bash-interactive-5.2p37.drv",
+      "description": "GNU Bourne-Again Shell, the de facto standard shell on Linux (for interactive use)",
+      "install_id": "bash",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "name": "bash-interactive-5.2p37",
+      "pname": "bash",
+      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "rev_count": 811950,
+      "rev_date": "2025-06-07T08:35:48Z",
+      "scrape_date": "2025-06-09T04:58:20.833773Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "5.2p37",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/cp4lxxx520jm6l87p7drk72fikwrvg11-bash-interactive-5.2p37-dev",
+        "doc": "/nix/store/f8jf3h6m9x322rkilyph467zfr2wb7j0-bash-interactive-5.2p37-doc",
+        "info": "/nix/store/7hylfficsccag91m8pp7vpwkps52a9hp-bash-interactive-5.2p37-info",
+        "man": "/nix/store/a0zpkp6s878hi3vrhz2wvwynwndi31cc-bash-interactive-5.2p37-man",
+        "out": "/nix/store/iaa9ygh4y84ibrnd96j4pb5v0r5n87f3-bash-interactive-5.2p37"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "bash",
+      "broken": false,
+      "derivation": "/nix/store/fg8j7klr6mm1ki4qiq5a3fk5swp42b5f-bash-interactive-5.2p37.drv",
+      "description": "GNU Bourne-Again Shell, the de facto standard shell on Linux (for interactive use)",
+      "install_id": "bash",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "name": "bash-interactive-5.2p37",
+      "pname": "bash",
+      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "rev_count": 811950,
+      "rev_date": "2025-06-07T08:35:48Z",
+      "scrape_date": "2025-06-09T05:17:40.911267Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "5.2p37",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "debug": "/nix/store/lyi453yphbdm0q39knhkjw72dxz0pzb9-bash-interactive-5.2p37-debug",
+        "dev": "/nix/store/61hjink4vi1ac1lspy6qgl6mh9x8yxs4-bash-interactive-5.2p37-dev",
+        "doc": "/nix/store/3frg3li12mwq7g4fpmgkjv43x5bqad7d-bash-interactive-5.2p37-doc",
+        "info": "/nix/store/88cs6k2j021mh2ir1dzsl6m8vqgydyiw-bash-interactive-5.2p37-info",
+        "man": "/nix/store/s3zz5nasd7qr894a8jrp6fy52pdrz2f1-bash-interactive-5.2p37-man",
+        "out": "/nix/store/1q9lw4r2mbap8rsr8cja46nap6wvrw2p-bash-interactive-5.2p37"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gcc-unwrapped",
+      "broken": false,
+      "derivation": "/nix/store/vm9zv8kpmyh4i2spmcdvypiah1y8iryj-gcc-14.2.1.20250322.drv",
+      "description": "GNU Compiler Collection, version 14.2.1.20250322",
+      "install_id": "gcc",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "name": "gcc-14.2.1.20250322",
+      "pname": "gcc-unwrapped",
+      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "rev_count": 811950,
+      "rev_date": "2025-06-07T08:35:48Z",
+      "scrape_date": "2025-06-09T04:23:51.287418Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "14.2.1.20250322",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "info": "/nix/store/0ykjxjpjs7nfqknnhiqh2640p4jkmixn-gcc-14.2.1.20250322-info",
+        "lib": "/nix/store/7ygrbdw80zymx17y03gzjjnfsfyiyp67-gcc-14.2.1.20250322-lib",
+        "man": "/nix/store/5z6ry0jb7jp3adaqjjj47wggq0yicawv-gcc-14.2.1.20250322-man",
+        "out": "/nix/store/gf8ia4klf6kgh18j70injrxcsq9sz6f7-gcc-14.2.1.20250322"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gcc-unwrapped",
+      "broken": false,
+      "derivation": "/nix/store/wxgzhk69shlv9cmlxml40l0gw3rpick0-gcc-14.2.1.20250322.drv",
+      "description": "GNU Compiler Collection, version 14.2.1.20250322",
+      "install_id": "gcc",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "name": "gcc-14.2.1.20250322",
+      "pname": "gcc-unwrapped",
+      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "rev_count": 811950,
+      "rev_date": "2025-06-07T08:35:48Z",
+      "scrape_date": "2025-06-09T04:41:58.803200Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "14.2.1.20250322",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "checksum": "/nix/store/gxpll86s5fyldrb3l7wv3vqw9nrwgrn1-gcc-14.2.1.20250322-checksum",
+        "info": "/nix/store/c64pc5rzpqkc8yyfqn5jh4n0bhiz3mvx-gcc-14.2.1.20250322-info",
+        "lib": "/nix/store/gd2iijcd4yaglkmkz3csbbvg81nd3k7x-gcc-14.2.1.20250322-lib",
+        "libgcc": "/nix/store/cbq7lhd043rwg76bjkxwgx0qixiqbwjw-gcc-14.2.1.20250322-libgcc",
+        "man": "/nix/store/3z80xkqynn17j9cai1vqia7l986dl6a1-gcc-14.2.1.20250322-man",
+        "out": "/nix/store/nnsfrpjjdfj1g8ydgv6g4lxhlxkqwalb-gcc-14.2.1.20250322"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gcc-unwrapped",
+      "broken": false,
+      "derivation": "/nix/store/f4k4gw0zx907mnv63hr213h5y4syz7mb-gcc-14.2.1.20250322.drv",
+      "description": "GNU Compiler Collection, version 14.2.1.20250322",
+      "install_id": "gcc",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "name": "gcc-14.2.1.20250322",
+      "pname": "gcc-unwrapped",
+      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "rev_count": 811950,
+      "rev_date": "2025-06-07T08:35:48Z",
+      "scrape_date": "2025-06-09T04:58:21.509439Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "14.2.1.20250322",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "info": "/nix/store/yp4rrx7d280733vqz56lbby0k1kw8blc-gcc-14.2.1.20250322-info",
+        "lib": "/nix/store/2fxl5l7svi1ma25msbg77is6va54g4la-gcc-14.2.1.20250322-lib",
+        "man": "/nix/store/86d7k4rdlsg9pknz1hkqq4j2xq6c9ndm-gcc-14.2.1.20250322-man",
+        "out": "/nix/store/3aymdqqs7niblnc6sgqvhgr5x5b4z82i-gcc-14.2.1.20250322"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gcc-unwrapped",
+      "broken": false,
+      "derivation": "/nix/store/sjzbql9ja7p7c08ziagba11cnvj6lsz9-gcc-14.2.1.20250322.drv",
+      "description": "GNU Compiler Collection, version 14.2.1.20250322",
+      "install_id": "gcc",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "name": "gcc-14.2.1.20250322",
+      "pname": "gcc-unwrapped",
+      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "rev_count": 811950,
+      "rev_date": "2025-06-07T08:35:48Z",
+      "scrape_date": "2025-06-09T05:17:42.162164Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "14.2.1.20250322",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "checksum": "/nix/store/kbv0w3gnsksxagjx72l244cynfsiir62-gcc-14.2.1.20250322-checksum",
+        "info": "/nix/store/mq3fyynvvg5s86icqdi6j57074svhgzl-gcc-14.2.1.20250322-info",
+        "lib": "/nix/store/7c0v0kbrrdc2cqgisi78jdqxn73n3401-gcc-14.2.1.20250322-lib",
+        "libgcc": "/nix/store/6hqzbvz50bm87hcj4qfn51gh7arxj8a6-gcc-14.2.1.20250322-libgcc",
+        "man": "/nix/store/y0cm45kcs4rnf0y5ys9066l1rn7p3b0i-gcc-14.2.1.20250322-man",
+        "out": "/nix/store/9ds850ifd4jwcccpp3v14818kk74ldf2-gcc-14.2.1.20250322"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gnumake",
+      "broken": false,
+      "derivation": "/nix/store/0z9w4hr3wkrs4fdrk0h42isxzhxxlbi5-gnumake-4.4.1.drv",
+      "description": "Tool to control the generation of non-source files from sources",
+      "install_id": "gnumake",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "name": "gnumake-4.4.1",
+      "pname": "gnumake",
+      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "rev_count": 811950,
+      "rev_date": "2025-06-07T08:35:48Z",
+      "scrape_date": "2025-06-09T04:23:51.430490Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "4.4.1",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "info": "/nix/store/4ykdx0lpl2dn8knnab0bap11prr7zzky-gnumake-4.4.1-info",
+        "man": "/nix/store/x59n9rzr26vf9cr0aapfakhrqhg7vy18-gnumake-4.4.1-man",
+        "out": "/nix/store/wkq7f52a2xq4n24f545wy2fidm4z14f2-gnumake-4.4.1"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gnumake",
+      "broken": false,
+      "derivation": "/nix/store/pya8baigzsh8ddrq9zhwn3ppk07qihmh-gnumake-4.4.1.drv",
+      "description": "Tool to control the generation of non-source files from sources",
+      "install_id": "gnumake",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "name": "gnumake-4.4.1",
+      "pname": "gnumake",
+      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "rev_count": 811950,
+      "rev_date": "2025-06-07T08:35:48Z",
+      "scrape_date": "2025-06-09T04:41:59.295493Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "4.4.1",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "debug": "/nix/store/wwhf09gg8ddpl4c6mx70pk3r3a6qx95r-gnumake-4.4.1-debug",
+        "info": "/nix/store/8wcb953rsjvp2ybi7iig6hjls48w87dj-gnumake-4.4.1-info",
+        "man": "/nix/store/f6b4ph7wflz6ylw3lylbiqrr72xs9jw5-gnumake-4.4.1-man",
+        "out": "/nix/store/946sh8bs8hrlrb4jhwxqzllr37zb2q0y-gnumake-4.4.1"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gnumake",
+      "broken": false,
+      "derivation": "/nix/store/dla3vbdflxl9qwj4hvq2mn4xbsfic3gm-gnumake-4.4.1.drv",
+      "description": "Tool to control the generation of non-source files from sources",
+      "install_id": "gnumake",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "name": "gnumake-4.4.1",
+      "pname": "gnumake",
+      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "rev_count": 811950,
+      "rev_date": "2025-06-07T08:35:48Z",
+      "scrape_date": "2025-06-09T04:58:21.682451Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "4.4.1",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "info": "/nix/store/14vf2zb0z70c67k2nzyqaz8b9rfjy73r-gnumake-4.4.1-info",
+        "man": "/nix/store/22x6iviphcn6zlbvhihbvws00iavf9aj-gnumake-4.4.1-man",
+        "out": "/nix/store/1fd85ai3984ah9cy31c7m1fn6i2mm66s-gnumake-4.4.1"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gnumake",
+      "broken": false,
+      "derivation": "/nix/store/yhc71a2s1xkzgv9x20nyyrc5c9z9nc14-gnumake-4.4.1.drv",
+      "description": "Tool to control the generation of non-source files from sources",
+      "install_id": "gnumake",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "name": "gnumake-4.4.1",
+      "pname": "gnumake",
+      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "rev_count": 811950,
+      "rev_date": "2025-06-07T08:35:48Z",
+      "scrape_date": "2025-06-09T05:17:42.721398Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "4.4.1",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "debug": "/nix/store/c59bxh8h9rnpp3l7y8i8zirpvp703z8w-gnumake-4.4.1-debug",
+        "info": "/nix/store/xqygkvkp7cghyk66aivysnr88q24dsms-gnumake-4.4.1-info",
+        "man": "/nix/store/5g01b5r1dbk91kwy4jld5vc1asy0mir4-gnumake-4.4.1-man",
+        "out": "/nix/store/p7z72c2s722pbw31jmm3y0nwypksb5fj-gnumake-4.4.1"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gnused",
+      "broken": false,
+      "derivation": "/nix/store/f8hpl6ki6pmhns0kbrcqdv92r0ik24j6-gnused-4.9.drv",
+      "description": "GNU sed, a batch stream editor",
+      "install_id": "gnused",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "name": "gnused-4.9",
+      "pname": "gnused",
+      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "rev_count": 811950,
+      "rev_date": "2025-06-07T08:35:48Z",
+      "scrape_date": "2025-06-09T04:23:51.434942Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "4.9",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "info": "/nix/store/pbkxwn9a1nkz5ym428fkwgkdsk05y5is-gnused-4.9-info",
+        "out": "/nix/store/3p81h24g11jfcdd7ifql71lr5mjag102-gnused-4.9"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gnused",
+      "broken": false,
+      "derivation": "/nix/store/lgk6l6bqmrf380fvd0p5bcp78668adnq-gnused-4.9.drv",
+      "description": "GNU sed, a batch stream editor",
+      "install_id": "gnused",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "name": "gnused-4.9",
+      "pname": "gnused",
+      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "rev_count": 811950,
+      "rev_date": "2025-06-07T08:35:48Z",
+      "scrape_date": "2025-06-09T04:41:59.302362Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "4.9",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "info": "/nix/store/cyy5a0r1blpnkmsj8kvy18ria1ss1c6h-gnused-4.9-info",
+        "out": "/nix/store/qarfi1yp1r71kqwbxipncgnsj5qsnm69-gnused-4.9"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gnused",
+      "broken": false,
+      "derivation": "/nix/store/1w89hws2y0aicyy1pbazv6w4q3lw3sjm-gnused-4.9.drv",
+      "description": "GNU sed, a batch stream editor",
+      "install_id": "gnused",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "name": "gnused-4.9",
+      "pname": "gnused",
+      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "rev_count": 811950,
+      "rev_date": "2025-06-07T08:35:48Z",
+      "scrape_date": "2025-06-09T04:58:21.687009Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "4.9",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "info": "/nix/store/zagjaa6iilp4bnip2ra45qbylgfws7qm-gnused-4.9-info",
+        "out": "/nix/store/3fqggn1iq66h3yk73h455yyjc2q7895p-gnused-4.9"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gnused",
+      "broken": false,
+      "derivation": "/nix/store/x0cw2kvqs4m62dymbbhm51p66v0k1s93-gnused-4.9.drv",
+      "description": "GNU sed, a batch stream editor",
+      "install_id": "gnused",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "name": "gnused-4.9",
+      "pname": "gnused",
+      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "rev_count": 811950,
+      "rev_date": "2025-06-07T08:35:48Z",
+      "scrape_date": "2025-06-09T05:17:42.728756Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "4.9",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "info": "/nix/store/i65zra2i21y5khnsnvl0pvd5rkvw5qhl-gnused-4.9-info",
+        "out": "/nix/store/clbb2cvigynr235ab5zgi18dyavznlk2-gnused-4.9"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gum",
+      "broken": false,
+      "derivation": "/nix/store/yv70qrsp1yzx5mb5zy4zlfwi2bwkbwss-gum-0.16.0.drv",
+      "description": "Tasty Bubble Gum for your shell",
+      "install_id": "gum",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "name": "gum-0.16.0",
+      "pname": "gum",
+      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "rev_count": 811950,
+      "rev_date": "2025-06-07T08:35:48Z",
+      "scrape_date": "2025-06-09T04:23:51.576809Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.16.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/amyw3aaqgpchs5cq8hh3d1wdy1hxfjav-gum-0.16.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gum",
+      "broken": false,
+      "derivation": "/nix/store/lszdflnyl97a0xq0xpx09shx4jcg6n1c-gum-0.16.0.drv",
+      "description": "Tasty Bubble Gum for your shell",
+      "install_id": "gum",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "name": "gum-0.16.0",
+      "pname": "gum",
+      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "rev_count": 811950,
+      "rev_date": "2025-06-07T08:35:48Z",
+      "scrape_date": "2025-06-09T04:41:59.562182Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.16.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/l6v1k7zn25ndvm4axmsbf10b8v8g78jp-gum-0.16.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gum",
+      "broken": false,
+      "derivation": "/nix/store/yzvac0ykppj3rg98dj7ayn9l71j11czc-gum-0.16.0.drv",
+      "description": "Tasty Bubble Gum for your shell",
+      "install_id": "gum",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "name": "gum-0.16.0",
+      "pname": "gum",
+      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "rev_count": 811950,
+      "rev_date": "2025-06-07T08:35:48Z",
+      "scrape_date": "2025-06-09T04:58:21.833302Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.16.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/mkz77pxvh7h0iamhwwbzmaamcbnri130-gum-0.16.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gum",
+      "broken": false,
+      "derivation": "/nix/store/jm03h6xp7145zq9gfk610aiv5sx575zg-gum-0.16.0.drv",
+      "description": "Tasty Bubble Gum for your shell",
+      "install_id": "gum",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "name": "gum-0.16.0",
+      "pname": "gum",
+      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "rev_count": 811950,
+      "rev_date": "2025-06-07T08:35:48Z",
+      "scrape_date": "2025-06-09T05:17:43.013805Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.16.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/w094m6kjn97wa2wrvj4mrjng0fnzmpw3-gum-0.16.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "libtool",
+      "broken": false,
+      "derivation": "/nix/store/b5hf4bh0i8j73lak03pndwq34733c990-libtool-2.5.4.drv",
+      "description": "GNU Libtool, a generic library support script",
+      "install_id": "libtool",
+      "license": "GPL-2.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "name": "libtool-2.5.4",
+      "pname": "libtool",
+      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "rev_count": 811950,
+      "rev_date": "2025-06-07T08:35:48Z",
+      "scrape_date": "2025-06-09T04:23:52.456749Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.5.4",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "lib": "/nix/store/26rznxy53qw29qd98cgm8qcsv2vp47qh-libtool-2.5.4-lib",
+        "out": "/nix/store/lalq01iwpblgz48wk172ca43n2xvgfbs-libtool-2.5.4"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "libtool",
+      "broken": false,
+      "derivation": "/nix/store/ii9x5sz4p21hkzzgl7zl73vp0lg2fvvb-libtool-2.5.4.drv",
+      "description": "GNU Libtool, a generic library support script",
+      "install_id": "libtool",
+      "license": "GPL-2.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "name": "libtool-2.5.4",
+      "pname": "libtool",
+      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "rev_count": 811950,
+      "rev_date": "2025-06-07T08:35:48Z",
+      "scrape_date": "2025-06-09T04:42:02.107430Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.5.4",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "lib": "/nix/store/46cbbckbiz6sad1g29gw9j0lz2pgaj6i-libtool-2.5.4-lib",
+        "out": "/nix/store/ywycw735rqzfg128sc1hs51k962s749h-libtool-2.5.4"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "libtool",
+      "broken": false,
+      "derivation": "/nix/store/858wpnb8a05z8l93pnsfxz768ck8kr1k-libtool-2.5.4.drv",
+      "description": "GNU Libtool, a generic library support script",
+      "install_id": "libtool",
+      "license": "GPL-2.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "name": "libtool-2.5.4",
+      "pname": "libtool",
+      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "rev_count": 811950,
+      "rev_date": "2025-06-07T08:35:48Z",
+      "scrape_date": "2025-06-09T04:58:22.721525Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.5.4",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "lib": "/nix/store/8sy4vxfllvbj2q9ablrfdqyl2bpgbfvc-libtool-2.5.4-lib",
+        "out": "/nix/store/b0rx6i5dcmn0slxw1mwbkfgfis7i9pwb-libtool-2.5.4"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "libtool",
+      "broken": false,
+      "derivation": "/nix/store/xm85r0pwk13hmik0bcgzqy4qrak48y03-libtool-2.5.4.drv",
+      "description": "GNU Libtool, a generic library support script",
+      "install_id": "libtool",
+      "license": "GPL-2.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "name": "libtool-2.5.4",
+      "pname": "libtool",
+      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "rev_count": 811950,
+      "rev_date": "2025-06-07T08:35:48Z",
+      "scrape_date": "2025-06-09T05:17:45.779813Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.5.4",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "lib": "/nix/store/np37flx1k0dj0j0xgxzkxs069sb5h4k3-libtool-2.5.4-lib",
+        "out": "/nix/store/l2sgvfcyqc1bgnzpz86qw5pjq99j8vlw-libtool-2.5.4"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "patch",
+      "broken": false,
+      "derivation": "/nix/store/5k8phlzpmypm9n3wiif45p13xfsyb3rq-patch-2.7.6.drv",
+      "description": "GNU Patch, a program to apply differences to files",
+      "install_id": "patch",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "name": "patch-2.7.6",
+      "pname": "patch",
+      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "rev_count": 811950,
+      "rev_date": "2025-06-07T08:35:48Z",
+      "scrape_date": "2025-06-09T04:23:54.905242Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.7.6",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/n1i5qvy1jcblq3s1ilnmc83yqcl0l8vk-patch-2.7.6"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "patch",
+      "broken": false,
+      "derivation": "/nix/store/v8d90lym8cvqnl4hyzisgasyfg1kp03x-patch-2.7.6.drv",
+      "description": "GNU Patch, a program to apply differences to files",
+      "install_id": "patch",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "name": "patch-2.7.6",
+      "pname": "patch",
+      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "rev_count": 811950,
+      "rev_date": "2025-06-07T08:35:48Z",
+      "scrape_date": "2025-06-09T04:42:11.130964Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.7.6",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/34ddx7pmjlkdrqzvyz761vbgl310cvpj-patch-2.7.6"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "patch",
+      "broken": false,
+      "derivation": "/nix/store/ch2395r0rx86axwas005mf0g1zjrxnvq-patch-2.7.6.drv",
+      "description": "GNU Patch, a program to apply differences to files",
+      "install_id": "patch",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "name": "patch-2.7.6",
+      "pname": "patch",
+      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "rev_count": 811950,
+      "rev_date": "2025-06-07T08:35:48Z",
+      "scrape_date": "2025-06-09T04:58:25.184814Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.7.6",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/40pysafk0c4pil6d1p52pmzghfdgj0il-patch-2.7.6"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "patch",
+      "broken": false,
+      "derivation": "/nix/store/smpm2ypcsp919b7w4dj1h60x9vvzcyf4-patch-2.7.6.drv",
+      "description": "GNU Patch, a program to apply differences to files",
+      "install_id": "patch",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "name": "patch-2.7.6",
+      "pname": "patch",
+      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "rev_count": 811950,
+      "rev_date": "2025-06-07T08:35:48Z",
+      "scrape_date": "2025-06-09T05:17:56.898505Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.7.6",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/x0kaspzb5jqvgp357bj27z6iq24ximfg-patch-2.7.6"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "pkg-config",
+      "broken": false,
+      "derivation": "/nix/store/0abxnz07gbqqd5fdz6j907ji30j34d5d-pkg-config-wrapper-0.29.2.drv",
+      "description": "Tool that allows packages to find out information about other packages (wrapper script)",
+      "install_id": "pkgconfig",
+      "license": "GPL-2.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "name": "pkg-config-wrapper-0.29.2",
+      "pname": "pkg-config",
+      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "rev_count": 811950,
+      "rev_date": "2025-06-07T08:35:48Z",
+      "scrape_date": "2025-06-09T04:23:58.956531Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.29.2",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "doc": "/nix/store/3ynyhaw76lpyrq90izswniwi30w44ijs-pkg-config-wrapper-0.29.2-doc",
+        "man": "/nix/store/wnc0cjzgh9njz9gzmr1xpri7g8azbmll-pkg-config-wrapper-0.29.2-man",
+        "out": "/nix/store/svafyjg9cly5zrq6hvbd34d14szvx2l7-pkg-config-wrapper-0.29.2"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "pkg-config",
+      "broken": false,
+      "derivation": "/nix/store/xqxnjsbc129cpgpf7gpzaw1skm2byp3h-pkg-config-wrapper-0.29.2.drv",
+      "description": "Tool that allows packages to find out information about other packages (wrapper script)",
+      "install_id": "pkgconfig",
+      "license": "GPL-2.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "name": "pkg-config-wrapper-0.29.2",
+      "pname": "pkg-config",
+      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "rev_count": 811950,
+      "rev_date": "2025-06-07T08:35:48Z",
+      "scrape_date": "2025-06-09T04:42:18.126636Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.29.2",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "doc": "/nix/store/axcsk9bmq0q4dg3asfnfifwk6s3ci1qd-pkg-config-wrapper-0.29.2-doc",
+        "man": "/nix/store/gw2zj9jkdf8369zmmxyc6g1siclmshdd-pkg-config-wrapper-0.29.2-man",
+        "out": "/nix/store/gzm371m389j42zak90jpg2bnx4cdkyh2-pkg-config-wrapper-0.29.2"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "pkg-config",
+      "broken": false,
+      "derivation": "/nix/store/8nii8knb8x3jz5c772qf9z5m9v626qi4-pkg-config-wrapper-0.29.2.drv",
+      "description": "Tool that allows packages to find out information about other packages (wrapper script)",
+      "install_id": "pkgconfig",
+      "license": "GPL-2.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "name": "pkg-config-wrapper-0.29.2",
+      "pname": "pkg-config",
+      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "rev_count": 811950,
+      "rev_date": "2025-06-07T08:35:48Z",
+      "scrape_date": "2025-06-09T04:58:29.253240Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.29.2",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "doc": "/nix/store/r03rfhl9fp32v02f30lp5ixx6j8bz6ii-pkg-config-wrapper-0.29.2-doc",
+        "man": "/nix/store/98m5gy9w2q1m4rw8hlsfglbhzkk8q26y-pkg-config-wrapper-0.29.2-man",
+        "out": "/nix/store/6a30pxqzr3hxspghxkx76r5i35dn8vw4-pkg-config-wrapper-0.29.2"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "pkg-config",
+      "broken": false,
+      "derivation": "/nix/store/pfdcqzk36ymraiylb23hik50j93jxzxm-pkg-config-wrapper-0.29.2.drv",
+      "description": "Tool that allows packages to find out information about other packages (wrapper script)",
+      "install_id": "pkgconfig",
+      "license": "GPL-2.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "name": "pkg-config-wrapper-0.29.2",
+      "pname": "pkg-config",
+      "rev": "3e3afe5174c561dee0df6f2c2b2236990146329f",
+      "rev_count": 811950,
+      "rev_date": "2025-06-07T08:35:48Z",
+      "scrape_date": "2025-06-09T05:18:04.545287Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.29.2",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "doc": "/nix/store/8h5h1jw0pw5f7gj68day67wjfsdjmp02-pkg-config-wrapper-0.29.2-doc",
+        "man": "/nix/store/fsrf6bncxkzcd70xr4191vrnfr910fgx-pkg-config-wrapper-0.29.2-man",
+        "out": "/nix/store/2crk9xnq5x9v7yf0r2nwkgj8qsmxr4ly-pkg-config-wrapper-0.29.2"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
       "priority": 5
     }
   ]

@@ -82,23 +82,12 @@
       }
     },
     "vars": {
-      "FLOX_FEATURES_BUILD": "true",
       "SOX_ENABLE_OPTIONAL_FORMATS": "true"
     },
-    "hook": {
-      "on-activate": ""
-    },
-    "options": {
-      "systems": [
-        "aarch64-darwin",
-        "aarch64-linux",
-        "x86_64-darwin",
-        "x86_64-linux"
-      ]
-    },
+    "options": {},
     "build": {
       "sox-dsd": {
-        "command": "# Create directory structure in $out\nmkdir -p $out/bin\n\n# (a) Run apply-patches.sh\n./apply-patches.sh apply || exit 1\n\n# (b) Run ./configure if apply-patches.sh exits successfully\n./configure --prefix=$out || exit 1\n\n# (c) Run make to build SoX\nmake || exit 1\n\n# Install the built binary to $out\nmake install\n",
+        "command": "mkdir -p $out/bin\n./configure --prefix=$out || exit 1\nmake || exit 1\nmake install\n",
         "sandbox": "pure"
       }
     }

@@ -1,19 +1,5 @@
-## Flox Environment Manifest -----------------------------------------
-##
-##   _Everything_ you need to know about the _manifest_ is here:
-##
-##               https://flox.dev/docs/concepts/manifest
-##
-## -------------------------------------------------------------------
-# Flox manifest version managed by Flox CLI
 version = 1
 
-
-## Install Packages --------------------------------------------------
-##  $ flox install gum  <- puts a package in [install] section below
-##  $ flox search gum   <- search for a package
-##  $ flox show gum     <- show all versions of a package
-## -------------------------------------------------------------------
 [install]
 # Core build tools
 gcc.pkg-path = "gcc-unwrapped"
@@ -53,52 +39,14 @@ libvorbis.pkg-path = "libvorbis"
 libvorbis.pkg-group = "dev"
 
 
-## Environment Variables ---------------------------------------------
-##  ... available for use in the activated environment
-##      as well as [hook], [profile] scripts and [services] below.
-## -------------------------------------------------------------------
 [vars]
-FLOX_FEATURES_BUILD = "true"
 SOX_ENABLE_OPTIONAL_FORMATS = "true"
 
-
-## Build Section -----------------------------------------------------
-##  ... defines reproducible builds using Nix's deterministic system
-## -------------------------------------------------------------------
 [build]
 sox-dsd.sandbox = "pure"
 sox-dsd.command = '''
-# Create directory structure in $out
 mkdir -p $out/bin
-
-# (a) Run apply-patches.sh
-./apply-patches.sh apply || exit 1
-
-# (b) Run ./configure if apply-patches.sh exits successfully
 ./configure --prefix=$out || exit 1
-
-# (c) Run make to build SoX
 make || exit 1
-
-# Install the built binary to $out
 make install
 '''
-
-
-## Activation Hook ---------------------------------------------------
-##  ... run by _bash_ shell when you run 'flox activate'.
-## -------------------------------------------------------------------
-[hook]
-on-activate = '''
-'''
-
-
-## Other Environment Options -----------------------------------------
-[options]
-# Systems that environment is compatible with
-systems = [
-  "aarch64-darwin",
-  "aarch64-linux",
-  "x86_64-darwin",
-  "x86_64-linux",
-]

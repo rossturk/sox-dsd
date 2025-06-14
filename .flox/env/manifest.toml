@@ -2,7 +2,6 @@ version = 1
 
 [install]
 # Core build tools
-gcc.pkg-path = "gcc"
 autoconf.pkg-path = "autoconf"
 automake.pkg-path = "automake"
 libtool.pkg-path = "libtool"
@@ -13,6 +12,14 @@ gnumake.pkg-path = "gnumake"
 autoconf-archive.pkg-path = "autoconf-archive"
 patch.pkg-path = "patch"
 gum.pkg-path = "gum"
+
+# linux-specific dependencies
+gcc.pkg-path = "gcc"
+gcc.systems = ["x86_64-linux", "aarch64-linux"]
+
+# macOS specific dependencies
+clang.pkg-path = "clang"
+clang.systems = ["x86_64-darwin", "aarch64-darwin"]
 
 # Optional libraries for additional formats
 file.pkg-path = "file"  # For libmagic
@@ -26,6 +33,7 @@ libsndfile.pkg-path = "libsndfile"
 wavpack.pkg-path = "wavpack"
 flac.pkg-path = "flac"
 libvorbis.pkg-path = "libvorbis"
+glib.pkg-path = "glib"
 
 
 [vars]
